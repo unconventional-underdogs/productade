@@ -1,0 +1,1364 @@
+<!--
+Productade Research Open Source Edition (OSE)
+
+Copyright (c) 2026 unconventional underdogs llc
+
+AI USE TRANSPARENCY
+unconventional underdogs llc used Anthropic's Claude to create Product Research, Open Source Edition.
+The purpose of Productade Research, OSE is to provide a reusable/repurposable example for personal research. 
+It is also intended to be used to help upskill professionals with a hands-on walk through example. 
+A human at unconventional underdogs has reviewed the HTML and provided additional comments to help 
+professionals personalize and upskill through consistent code exposure.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productade research</title>
+<!--
+If want to provide a logo, insert <link rel ="icon" type="image/png" href="insertfilenane"/>
+If want to change the branding colors, font, look and feel, then change the attributes within the <style></style> section below
+-->     
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #000000;
+            --secondary: #1a1a1a;
+            --accent: #2a2a2a;
+            --highlight: #ffcc00;
+            --text: #ffffff;
+            --text-muted: #999999;
+            --border: #333333;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        ::-webkit-scrollbar { width: 12px; height: 12px; }
+        ::-webkit-scrollbar-track { background: var(--secondary); }
+        ::-webkit-scrollbar-thumb { background: #ffcc00; border-radius: 6px; }
+        ::-webkit-scrollbar-thumb:hover { background: #e6b800; }
+        * { scrollbar-width: thin; scrollbar-color: #ffcc00 var(--secondary); }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 0;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .header-content { flex: 1; }
+        .header-logo {
+            position: absolute;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            opacity: 0.9;
+        }
+        @media (max-width: 768px) {
+            header { flex-direction: column; }
+            .header-logo { position: static; margin-top: 20px; }
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+            text-transform: lowercase;
+        }
+        .tagline { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 5px; }
+        .tagline-secondary { color: var(--highlight); font-size: 0.85rem; }
+        .section {
+            background: rgba(22, 33, 62, 0.5);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+        .section-header { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+        .step-number {
+            background: var(--highlight);
+            color: #000;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        h2 { font-size: 1.3rem; font-weight: normal; text-transform: lowercase; }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: lowercase;
+            font-weight: 600;
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            background: var(--accent);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text);
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            resize: vertical;
+        }
+        textarea:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--highlight);
+            box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.1);
+        }
+        .input-group { margin-bottom: 20px; }
+        button {
+            background: var(--highlight);
+            color: #000;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: lowercase;
+        }
+        button:hover:not(:disabled) {
+            background: #e6b800;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 204, 0, 0.4);
+        }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .status {
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            display: none;
+        }
+        .status.show { display: block; }
+        .status.loading {
+            background: rgba(255, 204, 0, 0.2);
+            border-left: 4px solid var(--highlight);
+            color: #ffdd44;
+        }
+        .status.success {
+            background: rgba(255, 204, 0, 0.2);
+            border-left: 4px solid var(--highlight);
+            color: var(--highlight);
+        }
+        .status.error {
+            background: rgba(255, 100, 100, 0.2);
+            border-left: 4px solid #ff6464;
+            color: #ff6464;
+        }
+        .spinner {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 8px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #resultsSection { display: none; }
+        #resultsSection.active { display: block; }
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .results-count { color: var(--text-muted); font-size: 0.9rem; }
+        .button-group { display: flex; gap: 10px; flex-wrap: wrap; }
+        .table-container { overflow-x: auto; max-height: 600px; overflow-y: auto; }
+        table { width: 100%; border-collapse: collapse; min-width: 800px; }
+        th {
+            background: var(--accent);
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid var(--highlight);
+            font-weight: 600;
+            font-size: 0.9rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            text-transform: lowercase;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        th:hover { background: var(--border); }
+        .sort-arrow { margin-left: 5px; font-size: 0.8rem; color: var(--highlight); }
+        td { padding: 12px; border-bottom: 1px solid var(--border); font-size: 0.85rem; }
+        tr:hover { background: rgba(255, 204, 0, 0.05); }
+        .keyword-cell { color: var(--highlight); font-weight: 600; }
+        .frequency-cell { text-align: center; }
+        .excerpt-cell { 
+            width: 320px;
+            min-width: 320px;
+            max-width: 320px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 0.8rem;
+            line-height: 1.4;
+        }
+        .file-cell { color: var(--text-muted); font-size: 0.8rem; }
+        .author-cell { color: #88aaff; font-size: 0.8rem; }
+        .votes-cell { text-align: center; color: var(--highlight); }
+        .comments-cell { text-align: center; color: #88aaff; }
+        .category-cell { font-size: 0.75rem; color: var(--text-muted); }
+        .title-cell { 
+            width: 320px;
+            min-width: 320px;
+            max-width: 320px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+        .link-cell a { color: #88aaff; text-decoration: none; }
+        .link-cell a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+        footer .copyright { margin-bottom: 15px; color: var(--highlight); }
+        footer .disclaimer { font-size: 0.7rem; color: #666666; max-width: 800px; margin: 0 auto; }
+        .import-tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .import-tab {
+            padding: 10px 20px;
+            background: var(--accent);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: lowercase;
+            transition: all 0.3s ease;
+        }
+        .import-tab:hover { border-color: var(--highlight); color: var(--text); }
+        .import-tab.active {
+            background: var(--highlight);
+            color: #000;
+            border-color: var(--highlight);
+            font-weight: 700;
+        }
+        .import-content { display: none; }
+        .import-content.active { display: block; }
+        .file-list { margin-top: 15px; max-height: 200px; overflow-y: auto; }
+        #titlesPreview { margin-top: 15px; max-height: 300px; overflow-y: auto; }
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            background: var(--accent);
+            border-radius: 4px;
+            margin-bottom: 5px;
+            font-size: 0.85rem;
+        }
+        .file-item-name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 80%; }
+        .helper-text { color: var(--text-muted); font-size: 0.8rem; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--If looking to insert logo, <insert img src="insertfilename"/>--> 
+            <div class="header-content">
+                <!--To personalize, change the below text for name of application-->
+                <h1>productade research</h1>
+                <!--To personalize, change the below text for relevant primary and secondary taglines name of application-->
+                <p class="tagline">relevant extraction for analytical product humans that still want to use their brains</p>
+                <p class="tagline-secondary">created by unconventional underdogs</p>
+            </div>
+        </header>
+
+        <!-- Section 1: Import -->
+        <section class="section">
+            <div class="section-header">
+                <div class="step-number">1</div>
+                 <!--change the below text for section header-->
+                <h2>import discussions for personal research only</h2>
+            </div>
+
+            <div class="import-tabs">
+                <div class="import-tab active" data-tab="links">single discussion urls</div>
+                <div class="import-tab" data-tab="titles">discussion header urls</div>
+            </div>
+
+            <!-- Discussion Headers Import -->
+            <div class="import-content" id="content-titles">
+                <div class="input-group">
+                     <!--change the below text for in window box text-->
+                    <label>discussion header urls (one per line)</label>
+                      <!--change the placeholder links for what will appear in window box text-->
+                    <textarea id="titlesInput" rows="4" placeholder="https://github.com/owner/repo/discussions&#10;https://github.com/owner/repo/discussions?page=2"></textarea>
+                    <p class="helper-text">extracts header, author, date, votes, category, and link from pages.</p>
+                </div>
+                  <!--change the text for button-->
+                <button id="importTitlesBtn" onclick="importDiscussionTitles()">fetch discussion headers</button>
+                <div id="titlesStatus" class="status"></div>
+                <div id="titlesPreview" style="margin-top:15px;"></div>
+            </div>
+
+            <!-- Full Discussion Import -->
+            <div class="import-content active" id="content-links">
+                <div class="input-group">
+                    <label>discussion urls (one per line, up to 100)</label>
+                    <textarea id="linksInput" rows="6" placeholder="https://github.com/owner/repo/discussions/123&#10;https://github.com/owner/repo/discussions/456&#10;..."></textarea>
+                      <!--change the below text for in window box text-->               
+                    <p class="helper-text">paste discussion urls, one per line. the app will fetch discussion content and comments to help identify pain points and use cases.</p>
+                </div>
+                  <!--change text for button -->
+                <button id="importLinksBtn" onclick="importFromLinks()" style="margin-bottom: 15px;">import discussions</button>
+                <div class="file-list" id="importedLinksList"></div>
+            </div>
+
+            <div id="importStatus" class="status"></div>
+        </section>
+
+        <!-- Section 2: Analyze Keywords -->
+        <section class="section">
+            <div class="section-header">
+                <div class="step-number">2</div>
+                <h2>analyze keywords & phrases</h2>
+            </div>
+            <div class="input-group">
+                <label>keywords & phrases (one per line)</label>
+                <textarea id="keywordsInput" rows="6" placeholder="machine learning&#10;data pipeline&#10;model training&#10;..."></textarea>
+            </div>
+            <button id="analyzeBtn" onclick="analyzeKeywords()" disabled>analyze keywords & phrases</button>
+            <div id="analyzeStatus" class="status"></div>
+        </section>
+
+        <!-- Section 3: Results -->
+        <section class="section" id="resultsSection">
+            <div class="section-header">
+                <div class="step-number">3</div>
+                <h2>results</h2>
+            </div>
+            <div class="results-header">
+                <span class="results-count" id="resultsCount">0 results</span>
+                <div class="button-group">
+                    <button onclick="exportToCSV()">download as .csv file</button>
+                </div>
+            </div>
+            <div class="table-container">
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable('keyword')">keyword <span id="sort-keyword" class="sort-arrow">&#9660;</span></th>
+                            <th onclick="sortTable('frequency')">freq <span id="sort-frequency" class="sort-arrow"></span></th>
+                            <th onclick="sortTable('title')">header <span id="sort-title" class="sort-arrow"></span></th>
+                            <th onclick="sortTable('author')">author <span id="sort-author" class="sort-arrow"></span></th>
+                            <th onclick="sortTable('date')">date <span id="sort-date" class="sort-arrow"></span></th>
+                            <th onclick="sortTable('votes')">votes <span id="sort-votes" class="sort-arrow"></span></th>
+                            <th onclick="sortTable('comments')">comments <span id="sort-comments" class="sort-arrow"></span></th>
+                            <th onclick="sortTable('category')">category <span id="sort-category" class="sort-arrow"></span></th>
+                            <th>excerpt</th>
+                            <th>link</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsBody"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <div class="copyright">&copy; 2026 unconventional underdogs llc</div>
+            <div class="disclaimer">
+                This application is not affiliated with, endorsed by, or sponsored by GitHub, Inc. 
+                "GitHub" is used solely as a descriptive term to indicate compatibility with GitHub's public data.
+                This application is for personal research and education purposes. 
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Global state
+        let documents = [];
+        let analysisResults = [];
+        let currentSort = { column: 'keyword', ascending: true };
+
+        // Tab switching
+        document.querySelectorAll('.import-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.import-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.import-content').forEach(c => c.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById('content-' + tab.dataset.tab).classList.add('active');
+            });
+        });
+
+        // Get San Francisco timestamp, if not SF, then change below.
+        function getSFTimestamp() {
+            const now = new Date();
+            const options = { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: true };
+            const formatter = new Intl.DateTimeFormat('en-US', options);
+            const parts = formatter.formatToParts(now);
+            const getPart = (type) => parts.find(p => p.type === type)?.value || '';
+            return `${getPart('month')}${getPart('day')}${getPart('year')}_${getPart('hour')}${getPart('minute')}${getPart('dayPeriod').toLowerCase()}`;
+        }
+
+        // Normalize any date string to "Mon DD, YYYY" format
+        function normalizeDate(dateStr) {
+            if (!dateStr || dateStr === 'unknown') return 'unknown';
+            
+            // Map full month names to abbreviated
+            const monthMap = {
+                'january': 'Jan', 'february': 'Feb', 'march': 'Mar', 'april': 'Apr',
+                'may': 'May', 'june': 'Jun', 'july': 'Jul', 'august': 'Aug',
+                'september': 'Sep', 'october': 'Oct', 'november': 'Nov', 'december': 'Dec'
+            };
+            
+            // Handle full month name + day + year: "October 06, 2022" or "February 24, 2026"
+            const fullMonthWithYear = dateStr.match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})$/i);
+            if (fullMonthWithYear) {
+                const abbr = monthMap[fullMonthWithYear[1].toLowerCase()];
+                return abbr + ' ' + parseInt(fullMonthWithYear[2]) + ', ' + fullMonthWithYear[3];
+            }
+            
+            // Handle full month name + day without year: "February 24" -> "Feb 24, 2026"
+            const fullMonthNoYear = dateStr.match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})$/i);
+            if (fullMonthNoYear) {
+                const abbr = monthMap[fullMonthNoYear[1].toLowerCase()];
+                const currentYear = new Date().getFullYear();
+                return abbr + ' ' + parseInt(fullMonthNoYear[2]) + ', ' + currentYear;
+            }
+            
+            // Already in good format like "Feb 25, 2026"
+            const goodFormat = dateStr.match(/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}$/);
+            if (goodFormat) return dateStr;
+            
+            // Handle relative dates like "2 days ago", "3 hours ago", etc.
+            const relMatch = dateStr.match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i);
+            if (relMatch) {
+                const num = parseInt(relMatch[1]);
+                const unit = relMatch[2].toLowerCase();
+                const now = new Date();
+                switch(unit) {
+                    case 'second': now.setSeconds(now.getSeconds() - num); break;
+                    case 'minute': now.setMinutes(now.getMinutes() - num); break;
+                    case 'hour': now.setHours(now.getHours() - num); break;
+                    case 'day': now.setDate(now.getDate() - num); break;
+                    case 'week': now.setDate(now.getDate() - (num * 7)); break;
+                    case 'month': now.setMonth(now.getMonth() - num); break;
+                    case 'year': now.setFullYear(now.getFullYear() - num); break;
+                }
+                return new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(now);
+            }
+            
+            // Handle "Mon YYYY" format (missing day) - default to 1st
+            const monthYear = dateStr.match(/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})$/);
+            if (monthYear) {
+                return monthYear[1] + ' 1, ' + monthYear[2];
+            }
+            
+            // Handle "Mon DD" format (missing year) - use current year
+            const monthDay = dateStr.match(/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})$/i);
+            if (monthDay) {
+                const currentYear = new Date().getFullYear();
+                return monthDay[1] + ' ' + monthDay[2] + ', ' + currentYear;
+            }
+            
+            // Handle month-only format "Feb" - use 1st of current year
+            const monthOnly = dateStr.match(/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$/i);
+            if (monthOnly) {
+                const currentYear = new Date().getFullYear();
+                return monthOnly[1] + ' 1, ' + currentYear;
+            }
+            
+            // Try parsing as a date
+            const parsed = new Date(dateStr);
+            if (!isNaN(parsed.getTime())) {
+                return new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(parsed);
+            }
+            
+            return dateStr; // Return as-is if we can't normalize
+        }
+
+        function showStatus(elementId, message, type) {
+            const el = document.getElementById(elementId);
+            el.innerHTML = message;
+            el.className = 'status show ' + type;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Parse discussion listing page HTML - multiple methods for different proxy responses
+        function parseDiscussionListing(html) {
+            const discussions = [];
+            const seen = new Set();
+            
+            // Method 1: Markdown-style format (from web_fetch / some proxies that convert to markdown)
+            // Pattern: "* N\n   You must be logged in to vote" or without asterisk
+            const markdownBlocks = html.split(/\*?\s*(\d+)\s+You must be logged in to vote/i);
+            
+            if (markdownBlocks.length > 2) {
+                // Markdown format detected
+                for (let i = 1; i < markdownBlocks.length; i += 2) {
+                    const votes = markdownBlocks[i];
+                    const block = markdownBlocks[i + 1] || '';
+                    
+                    // Extract title and link - look for ### [Title](/link) format
+                    const titleMatch = block.match(/###\s*\[([^\]]+)\]\(([^)]+)\)/) ||
+                                      block.match(/\[([^\]]+)\]\((\/[^)]*\/discussions\/\d+)\)/);
+                    if (titleMatch) {
+                        const title = titleMatch[1];
+                        let link = titleMatch[2];
+                        if (link.startsWith('/')) link = 'https://github.com' + link;
+                        
+                        const discussionId = link.match(/\/discussions\/(\d+)/)?.[1];
+                        if (discussionId && seen.has(discussionId)) continue;
+                        if (discussionId) seen.add(discussionId);
+                        
+                        // Extract category
+                        const catMatch = block.match(/\[(Q&A|Ideas|Show and tell|General|Announcements|Polls)\]/i);
+                        const category = catMatch ? catMatch[1] : '';
+                        
+                        // Extract author
+                        const authorMatch = block.match(/\[([a-zA-Z0-9_-]+)\]\(\/\1\)\s*\n?\s*(?:started|asked)/i) ||
+                                           block.match(/\[([a-zA-Z0-9_-]+)\]\(\/[a-zA-Z0-9_-]+\)\s*\n?\s*(?:started|asked)/i);
+                        const author = authorMatch ? authorMatch[1] : '';
+                        
+                        // Extract date
+                        const dateMatch = block.match(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s*\d{4}/i);
+                        const date = dateMatch ? normalizeDate(dateMatch[0]) : '';
+                        
+                        // Extract comments - LAST [N](/discussions/N) in block
+                        let comments = 0;
+                        const allLinks = [...block.matchAll(/\[(\d+)\]\([^)]*\/discussions\/\d+\)/g)];
+                        if (allLinks.length > 0) {
+                            comments = parseInt(allLinks[allLinks.length - 1][1]) || 0;
+                        }
+                        
+                        discussions.push({
+                            title: title,
+                            link: link,
+                            votes: parseInt(votes) || 0,
+                            comments: comments,
+                            category: category,
+                            author: author,
+                            date: date
+                        });
+                    }
+                }
+            }
+            
+            // Method 2: Raw GitHub HTML format (from CORS proxy returning actual HTML)
+            // Uses aria-label attributes for votes and comments
+            if (discussions.length === 0) {
+                // Find discussion titles via markdown-title class
+                const titleRegex = /href="((?:https:\/\/github\.com)?\/[^"]*\/discussions\/(\d+))"[^>]*class="[^"]*markdown-title[^"]*"[^>]*>([^<]+)<\/a>/gi;
+                let match;
+                
+                while ((match = titleRegex.exec(html)) !== null) {
+                    let link = match[1];
+                    const discussionId = match[2];
+                    const title = match[3];
+                    
+                    if (seen.has(discussionId)) continue;
+                    seen.add(discussionId);
+                    
+                    if (link.startsWith('/')) link = 'https://github.com' + link;
+                    
+                    // Get context BEFORE title for votes (votes appear before title in GitHub HTML)
+                    const beforeContext = html.substring(Math.max(0, match.index - 5000), match.index);
+                    
+                    // Get context AFTER title for comments (comments appear after title)
+                    const afterContext = html.substring(match.index, Math.min(html.length, match.index + 10000));
+                    
+                    // Extract votes - try multiple patterns for different HTML versions
+                    // Pattern 1: aria-label="Upvote: (N):" on button
+                    // Pattern 2: data-upvote-label="Upvote: (N):" on span
+                    // Pattern 3: <span class="js-default-vote-count"...>N</span>
+                    // Pattern 4: slidey-boi span containing a number
+                    // Pattern 5: discussion-vote-form section with a number
+                    let votes = 0;
+                    const votesMatches = [...beforeContext.matchAll(/aria-label="Upvote: \((\d+)\):/gi)];
+                    if (votesMatches.length > 0) {
+                        votes = parseInt(votesMatches[votesMatches.length - 1][1]) || 0;
+                    }
+                    // Fallback: data-upvote-label attribute
+                    if (votes === 0) {
+                        const dataUpvoteMatches = [...beforeContext.matchAll(/data-upvote-label="Upvote: \((\d+)\):/gi)];
+                        if (dataUpvoteMatches.length > 0) {
+                            votes = parseInt(dataUpvoteMatches[dataUpvoteMatches.length - 1][1]) || 0;
+                        }
+                    }
+                    // Fallback: js-default-vote-count span content
+                    if (votes === 0) {
+                        const voteSpanMatches = [...beforeContext.matchAll(/js-default-vote-count[^>]*>\s*(\d+)/gi)];
+                        if (voteSpanMatches.length > 0) {
+                            votes = parseInt(voteSpanMatches[voteSpanMatches.length - 1][1]) || 0;
+                        }
+                    }
+                    // Fallback: slidey-boi span with number (GitHub's vote animation container)
+                    if (votes === 0) {
+                        const slideyMatches = [...beforeContext.matchAll(/slidey-boi[^>]*>[\s\S]*?>\s*(\d+)\s*</gi)];
+                        if (slideyMatches.length > 0) {
+                            votes = parseInt(slideyMatches[slideyMatches.length - 1][1]) || 0;
+                        }
+                    }
+                    // Fallback: discussion-vote-form section with number
+                    if (votes === 0) {
+                        const voteFormMatches = [...beforeContext.matchAll(/discussion-vote-form[\s\S]*?>\s*(\d+)\s*</gi)];
+                        if (voteFormMatches.length > 0) {
+                            votes = parseInt(voteFormMatches[voteFormMatches.length - 1][1]) || 0;
+                        }
+                    }
+                    // Fallback: look for standalone number before title that's likely a vote count
+                    if (votes === 0) {
+                        // Look for a number that appears in the last 2000 chars before title
+                        const recentContext = beforeContext.slice(-2000);
+                        const numberMatches = [...recentContext.matchAll(/>\s*(\d+)\s*<\/span>/gi)];
+                        if (numberMatches.length > 0) {
+                            // Take the last number found before the title
+                            votes = parseInt(numberMatches[numberMatches.length - 1][1]) || 0;
+                        }
+                    }
+                    
+                    // Extract comments - try multiple patterns
+                    // Pattern 1: aria-label="N comments:" linking to same discussion
+                    // Pattern 2: </svg>\s*N</a> where link goes to same discussion
+                    // Pattern 3: >N</a> at end of discussion row
+                    let comments = 0;
+                    const commentsRegex = new RegExp('aria-label="(\\d+) comments?:[^"]*"[^>]*href="[^"]*\\/discussions\\/' + discussionId + '"', 'i');
+                    const commentsMatch = afterContext.match(commentsRegex);
+                    if (commentsMatch) {
+                        comments = parseInt(commentsMatch[1]) || 0;
+                    }
+                    // Fallback: visible comment count after SVG icon
+                    if (comments === 0) {
+                        const svgCommentsRegex = new RegExp('<\\/svg>\\s*(\\d+)<\\/a>[^]*?href="[^"]*\\/discussions\\/' + discussionId + '"', 'i');
+                        const svgMatch = afterContext.match(svgCommentsRegex);
+                        if (svgMatch) {
+                            comments = parseInt(svgMatch[1]) || 0;
+                        }
+                    }
+                    // Fallback: look for octicon-comment followed by number
+                    if (comments === 0) {
+                        const octiconRegex = new RegExp('octicon-comment[^>]*>[\\s\\S]*?<\\/svg>\\s*(\\d+)', 'i');
+                        const octiconMatch = afterContext.match(octiconRegex);
+                        if (octiconMatch) {
+                            comments = parseInt(octiconMatch[1]) || 0;
+                        }
+                    }
+                    
+                    // Extract author and date from votes aria-label or data-upvote-label
+                    // Format: "Upvote: (N): username, HH:MMam on MonthName DD, YYYY"
+                    let author = '';
+                    let date = '';
+                    const metaMatch = beforeContext.match(/(?:aria-label|data-upvote-label)="Upvote: \(\d+\): ([^,]+), [^"]*on ([^"]+)"/i);
+                    if (metaMatch) {
+                        author = metaMatch[1];
+                        date = normalizeDate(metaMatch[2].trim());
+                    }
+                    // Fallback: look for author in other locations (e.g., data-hovercard-type="user")
+                    if (!author) {
+                        const authorFallback = afterContext.match(/aria-label="([^"]+) \(author\)/i) ||
+                                              afterContext.match(/data-hovercard-type="user"[^>]*>([^<]+)</i);
+                        if (authorFallback) author = authorFallback[1];
+                    }
+                    // Fallback: look for date in afterContext (near title/author)
+                    if (!date) {
+                        // Pattern 1: "started/asked Mon DD, YYYY" or "started/asked MonthName DD, YYYY"
+                        const datePatterns = [
+                            /(?:started|asked|opened)\s+((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s*\d{4})/i,
+                            /(?:started|asked|opened)\s+((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4})/i,
+                            // Pattern 2: date in aria-label for comments "N comments: author, time on Date"
+                            /aria-label="\d+ comments?:[^"]*on ([^"]+)"/i,
+                            // Pattern 3: standalone date near title
+                            />\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s*\d{4})\s*</i,
+                            />\s*((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4})\s*</i,
+                            // Pattern 4: relative-time element datetime attribute
+                            /datetime="(\d{4}-\d{2}-\d{2})/i
+                        ];
+                        for (const pattern of datePatterns) {
+                            const dateMatch = afterContext.match(pattern);
+                            if (dateMatch && dateMatch[1]) {
+                                date = normalizeDate(dateMatch[1].trim());
+                                if (date && date !== 'unknown') break;
+                            }
+                        }
+                    }
+                    
+                    // Extract category from nearby context
+                    let category = '';
+                    const catMatch = afterContext.match(/>(Q&A|Ideas|Show and tell|General|Announcements|Polls)</i);
+                    if (catMatch) category = catMatch[1];
+                    
+                    discussions.push({
+                        title: title,
+                        link: link,
+                        votes: votes,
+                        comments: comments,
+                        category: category,
+                        author: author,
+                        date: date
+                    });
+                }
+            }
+            
+            // Method 3: Fallback - find any discussion links if Methods 1 and 2 failed
+            if (discussions.length === 0) {
+                const linkRegex = /href="((?:https:\/\/github\.com)?\/[^"]*\/discussions\/(\d+))"/gi;
+                let match;
+                
+                while ((match = linkRegex.exec(html)) !== null) {
+                    let link = match[1];
+                    const discussionId = match[2];
+                    
+                    if (seen.has(discussionId)) continue;
+                    seen.add(discussionId);
+                    
+                    if (link.startsWith('/')) link = 'https://github.com' + link;
+                    
+                    // Get context around link
+                    const context = html.substring(Math.max(0, match.index - 2000), Math.min(html.length, match.index + 2000));
+                    
+                    // Try to find title nearby
+                    const titleMatch = context.match(/>([^<]{10,200})<\/a>/);
+                    const title = titleMatch ? titleMatch[1].trim() : 'Discussion ' + discussionId;
+                    
+                    discussions.push({
+                        title: title,
+                        link: link,
+                        votes: 0,
+                        comments: 0,
+                        category: '',
+                        author: '',
+                        date: ''
+                    });
+                }
+            }
+            
+            return discussions;
+        }
+
+        // Import discussion titles from listing pages
+        async function importDiscussionTitles() {
+            const input = document.getElementById('titlesInput').value.trim();
+            if (!input) {
+                showStatus('titlesStatus', 'Please enter at least one discussion listing URL', 'error');
+                return;
+            }
+
+            const urls = input.split('\n').map(u => u.trim()).filter(u => u);
+            if (urls.length === 0) {
+                showStatus('titlesStatus', 'No valid URLs found', 'error');
+                return;
+            }
+
+            document.getElementById('importTitlesBtn').disabled = true;
+            showStatus('titlesStatus', '<span class="spinner"></span>Fetching discussion headers...', 'loading');
+
+            let allDiscussions = [];
+            let successCount = 0;
+            let errorCount = 0;
+
+            for (const url of urls) {
+                try {
+                    // Multi-proxy fallback
+                    const proxies = [
+                        u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+                        u => 'https://corsproxy.io/?' + encodeURIComponent(u),
+                        u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u)
+                    ];
+
+                    // Helper for fetch with timeout
+                    const fetchWithTimeout = (fetchUrl, options, timeout = 8000) => {
+                        return Promise.race([
+                            fetch(fetchUrl, options),
+                            new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), timeout))
+                        ]);
+                    };
+
+                    let html = null;
+                    for (const makeProxy of proxies) {
+                        try {
+                            const proxyUrl = makeProxy(url);
+                            const response = await fetchWithTimeout(proxyUrl, { headers: { 'Accept': 'text/html' } });
+                            if (response.ok) {
+                                const text = await response.text();
+                                if (text.length > 1000) {
+                                    html = text;
+                                    break;
+                                }
+                            }
+                        } catch (proxyError) {
+                            // Try next proxy
+                        }
+                    }
+
+                    if (!html) {
+                        errorCount++;
+                        continue;
+                    }
+
+                    const discussions = parseDiscussionListing(html);
+                    
+                    if (discussions.length > 0) {
+                        allDiscussions = allDiscussions.concat(discussions);
+                        successCount++;
+                    } else {
+                        errorCount++;
+                    }
+                } catch (error) {
+                    console.error('Error fetching:', url, error);
+                    errorCount++;
+                }
+            }
+
+            // Remove duplicates by link
+            const seen = new Set();
+            allDiscussions = allDiscussions.filter(d => {
+                if (seen.has(d.link)) return false;
+                seen.add(d.link);
+                return true;
+            });
+
+            if (allDiscussions.length === 0) {
+                showStatus('titlesStatus', 'Could not extract any discussions. Make sure you\'re using GitHub discussion listing URLs.', 'error');
+                document.getElementById('importTitlesBtn').disabled = false;
+                return;
+            }
+
+            // Convert to documents format
+            allDiscussions.forEach(d => {
+                documents.push({
+                    fileName: d.title.substring(0, 50).replace(/[^a-zA-Z0-9]/g, '-') + '.txt',
+                    title: d.title,
+                    content: d.title,
+                    link: d.link,
+                    source: d.link,
+                    votes: d.votes,
+                    comments: d.comments,
+                    category: d.category,
+                    author: d.author,
+                    date: d.date
+                });
+            });
+
+            // Update UI
+            document.getElementById('analyzeBtn').disabled = false;
+            showStatus('titlesStatus', `Successfully imported ${allDiscussions.length} discussion headers from ${successCount} page(s)${errorCount > 0 ? ` (${errorCount} failed)` : ''}`, 'success');
+            
+            // Show preview - render all items, CSS handles scrolling
+            const preview = document.getElementById('titlesPreview');
+            preview.innerHTML = '<div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Imported discussions:</div>';
+            allDiscussions.forEach(d => {
+                const item = document.createElement('div');
+                item.className = 'file-item';
+                item.innerHTML = `<span class="file-item-name" title="${escapeHtml(d.title)}">${escapeHtml(d.title)}</span>`;
+                preview.appendChild(item);
+            });
+
+            document.getElementById('importTitlesBtn').disabled = false;
+        }
+
+        // Parse full discussion page
+        function parseFullDiscussion(html) {
+            let title = '';
+            let author = '';
+            let date = '';
+            let votes = 0;
+            let comments = 0;
+            let category = '';
+            let content = '';
+
+            // Extract title
+            const titleMatch = html.match(/<title>([^<]+)<\/title>/i) ||
+                              html.match(/class="[^"]*discussion-title[^"]*"[^>]*>([^<]+)/i) ||
+                              html.match(/data-hovercard-type="discussion"[^>]*>([^<]+)/i);
+            if (titleMatch) {
+                title = titleMatch[1].replace(/\s*·\s*Discussion.*$/i, '').replace(/\s*GitHub.*$/i, '').trim();
+            }
+
+            // Extract author
+            // Pattern 1: HTML data-hovercard-type="user" with nested span (CORS proxy)
+            // Pattern 2: HTML class="author" attribute
+            // Pattern 3: Markdown link format "[username](/username) asked this question" (web_fetch)
+            const authorMatch = html.match(/data-hovercard-type="user"[^>]*>\s*<span[^>]*>\s*([^<]+)/i) ||
+                               html.match(/data-hovercard-type="user"[^>]*>([^<]+)/i) ||
+                               html.match(/class="author[^"]*"[^>]*>([^<]+)/i) ||
+                               html.match(/\[([^\]]+)\]\(\/[^\)]+\)\s*asked this question/i);
+            if (authorMatch) {
+                author = authorMatch[1].trim();
+            }
+
+            // Extract date
+            const dateMatch = html.match(/datetime="([^"]+)"/i) ||
+                             html.match(/(\d{4}-\d{2}-\d{2})/);
+            if (dateMatch) {
+                date = normalizeDate(dateMatch[1]);
+            }
+
+            // Extract main content - try multiple methods
+            const contentPatterns = [
+                /<div[^>]*class="[^"]*comment-body[^"]*"[^>]*>([\s\S]*?)<\/div>/gi,
+                /<div[^>]*class="[^"]*markdown-body[^"]*"[^>]*>([\s\S]*?)<\/div>/gi,
+                /<td[^>]*class="[^"]*comment-body[^"]*"[^>]*>([\s\S]*?)<\/td>/gi
+            ];
+
+            let contentParts = [];
+            for (const pattern of contentPatterns) {
+                let match;
+                while ((match = pattern.exec(html)) !== null) {
+                    // Clean HTML tags
+                    let text = match[1]
+                        .replace(/<[^>]+>/g, ' ')
+                        .replace(/&nbsp;/g, ' ')
+                        .replace(/&lt;/g, '<')
+                        .replace(/&gt;/g, '>')
+                        .replace(/&amp;/g, '&')
+                        .replace(/&quot;/g, '"')
+                        .replace(/&#39;/g, "'")
+                        .replace(/\s+/g, ' ')
+                        .trim();
+                    if (text.length > 20) {
+                        contentParts.push(text);
+                    }
+                }
+                if (contentParts.length > 0) break;
+            }
+
+            // Deduplicate content parts - handle nested elements where parent contains child text
+            contentParts.sort((a, b) => a.length - b.length);
+            const uniqueParts = [];
+            for (const part of contentParts) {
+                const isDuplicate = uniqueParts.some(existing => 
+                    existing.includes(part) || part.includes(existing)
+                );
+                if (!isDuplicate) {
+                    uniqueParts.push(part);
+                }
+            }
+            contentParts = uniqueParts;
+
+            content = contentParts.join('\n\n');
+
+            // If no content found, try to extract any readable text
+            if (!content || content.length < 50) {
+                const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+                if (bodyMatch) {
+                    content = bodyMatch[1]
+                        .replace(/<script[\s\S]*?<\/script>/gi, '')
+                        .replace(/<style[\s\S]*?<\/style>/gi, '')
+                        .replace(/<[^>]+>/g, ' ')
+                        .replace(/\s+/g, ' ')
+                        .trim()
+                        .substring(0, 5000);
+                }
+            }
+
+            // Extract votes
+            // Pattern 1: aria-label (CORS proxy raw HTML)
+            // Pattern 2: "N You must be logged in to vote" (web_fetch text format)
+            const voteMatch = html.match(/aria-label="Upvote:\s*\(?(\d+)\)?/i) ||
+                              html.match(/(\d+)\s*[\n\r\s]*You must be logged in to vote/i);
+            if (voteMatch) {
+                votes = parseInt(voteMatch[1]) || 0;
+            }
+
+            // Extract comments
+            // Pattern 1: "N comments · M replies" (web_fetch text format)
+            // Pattern 2: <span> N comments </span> ... <span> M replies </span> (detail page HTML)
+            const commentsTextMatch = html.match(/(\d+)\s*comments?\s*[·•\u00B7]\s*(\d+)\s*repl(?:y|ies)/i);
+            if (commentsTextMatch) {
+                comments = parseInt(commentsTextMatch[1]) + parseInt(commentsTextMatch[2]);
+            } else {
+                const commentsMatch = html.match(/>\s*(\d+)\s+comments?\s*</i);
+                const repliesMatch = html.match(/>\s*(\d+)\s+repl(?:y|ies)\s*</i);
+                if (commentsMatch || repliesMatch) {
+                    comments = (commentsMatch ? parseInt(commentsMatch[1]) : 0) + 
+                               (repliesMatch ? parseInt(repliesMatch[1]) : 0);
+                }
+            }
+
+            // Extract category
+            const categoryMatch = html.match(/>\s*(Q&A|Ideas|Show and tell|General|Announcements|Polls)\s*</i);
+            if (categoryMatch) {
+                category = categoryMatch[1];
+            }
+
+            return {
+                title: title || 'Untitled Discussion',
+                author: author,
+                date: date,
+                votes: votes,
+                comments: comments,
+                category: category,
+                content: content || 'Content could not be extracted'
+            };
+        }
+
+        // Import from discussion URLs
+        async function importFromLinks() {
+            const input = document.getElementById('linksInput').value.trim();
+            if (!input) {
+                showStatus('importStatus', 'Please enter at least one discussion URL', 'error');
+                return;
+            }
+
+            let urls = input.split('\n').map(u => u.trim()).filter(u => u && u.includes('github.com'));
+            
+            if (urls.length === 0) {
+                showStatus('importStatus', 'No valid GitHub URLs found', 'error');
+                return;
+            }
+
+            if (urls.length > 100) {
+                urls = urls.slice(0, 100);
+                showStatus('importStatus', 'Limited to first 100 URLs', 'loading');
+            }
+
+            document.getElementById('importLinksBtn').disabled = true;
+            
+            const listEl = document.getElementById('importedLinksList');
+            listEl.innerHTML = '';
+
+            let successCount = 0;
+            let errorCount = 0;
+
+            for (let i = 0; i < urls.length; i++) {
+                const url = urls[i];
+                showStatus('importStatus', `<span class="spinner"></span>Importing ${i + 1} of ${urls.length}...`, 'loading');
+
+                try {
+                    // Multi-proxy fallback
+                    const proxies = [
+                        u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+                        u => 'https://corsproxy.io/?' + encodeURIComponent(u),
+                        u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u)
+                    ];
+
+                    // Helper for fetch with timeout
+                    const fetchWithTimeout = (fetchUrl, options, timeout = 8000) => {
+                        return Promise.race([
+                            fetch(fetchUrl, options),
+                            new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), timeout))
+                        ]);
+                    };
+
+                    let html = null;
+                    for (const makeProxy of proxies) {
+                        try {
+                            const proxyUrl = makeProxy(url);
+                            const response = await fetchWithTimeout(proxyUrl, { headers: { 'Accept': 'text/html' } });
+                            if (response.ok) {
+                                const text = await response.text();
+                                if (text.length > 1000) {
+                                    html = text;
+                                    break;
+                                }
+                            }
+                        } catch (proxyError) {
+                            // Try next proxy
+                        }
+                    }
+
+                    if (!html) {
+                        throw new Error('All proxies failed');
+                    }
+
+                    const parsed = parseFullDiscussion(html);
+
+                    const fileName = (parsed.title || 'discussion-' + (i + 1))
+                        .substring(0, 50)
+                        .replace(/[^a-zA-Z0-9]/g, '-')
+                        .replace(/-+/g, '-')
+                        .replace(/^-|-$/g, '') + '.txt';
+
+                    documents.push({
+                        fileName: fileName,
+                        title: parsed.title,
+                        content: parsed.content,
+                        link: url,
+                        source: url,
+                        votes: parsed.votes,
+                        comments: parsed.comments,
+                        category: parsed.category,
+                        author: parsed.author,
+                        date: parsed.date
+                    });
+
+                    // Add to list
+                    const item = document.createElement('div');
+                    item.className = 'file-item';
+                    item.innerHTML = `<span class="file-item-name" title="${escapeHtml(parsed.title)}">${escapeHtml(parsed.title)}</span>`;
+                    listEl.appendChild(item);
+
+                    successCount++;
+                } catch (error) {
+                    console.error('Error importing:', url, error);
+                    errorCount++;
+                }
+
+                // Small delay to avoid rate limiting
+                if (i < urls.length - 1) {
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                }
+            }
+
+            document.getElementById('importLinksBtn').disabled = false;
+            
+            if (successCount > 0) {
+                document.getElementById('analyzeBtn').disabled = false;
+                showStatus('importStatus', `Successfully imported ${successCount} discussion(s)${errorCount > 0 ? ` (${errorCount} failed)` : ''}`, 'success');
+            } else {
+                showStatus('importStatus', 'Failed to import any discussions. Please check the URLs and try again.', 'error');
+            }
+        }
+
+        // Analyze keywords
+        function analyzeKeywords() {
+            const keywordsInput = document.getElementById('keywordsInput').value.trim();
+            if (!keywordsInput) {
+                showStatus('analyzeStatus', 'Please enter at least one keyword or phrase', 'error');
+                return;
+            }
+
+            if (documents.length === 0) {
+                showStatus('analyzeStatus', 'Please import discussions first', 'error');
+                return;
+            }
+
+            const keywords = keywordsInput.split('\n').map(k => k.trim().toLowerCase()).filter(k => k);
+            if (keywords.length === 0) {
+                showStatus('analyzeStatus', 'No valid keywords found', 'error');
+                return;
+            }
+
+            showStatus('analyzeStatus', '<span class="spinner"></span>Analyzing...', 'loading');
+
+            analysisResults = [];
+
+            documents.forEach(doc => {
+                const contentLower = (doc.content || '').toLowerCase();
+                const titleLower = (doc.title || '').toLowerCase();
+                const fullText = titleLower + ' ' + contentLower;
+
+                keywords.forEach(keyword => {
+                    const regex = new RegExp(keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+                    const matches = fullText.match(regex);
+                    
+                    if (matches && matches.length > 0) {
+                        // Find excerpt
+                        const keywordIndex = contentLower.indexOf(keyword);
+                        let excerpt = '';
+                        if (keywordIndex >= 0) {
+                            const start = Math.max(0, keywordIndex - 50);
+                            const end = Math.min(doc.content.length, keywordIndex + keyword.length + 100);
+                            excerpt = (start > 0 ? '...' : '') + 
+                                     doc.content.substring(start, end).trim() + 
+                                     (end < doc.content.length ? '...' : '');
+                        } else {
+                            excerpt = (doc.content || '').substring(0, 150) + '...';
+                        }
+
+                        analysisResults.push({
+                            keyword: keyword,
+                            frequency: matches.length,
+                            fileName: doc.fileName,
+                            title: doc.title || doc.fileName,
+                            author: doc.author || '',
+                            date: doc.date || '',
+                            votes: doc.votes || 0,
+                            comments: doc.comments || 0,
+                            category: doc.category || '',
+                            excerpt: excerpt,
+                            link: doc.link || doc.source || ''
+                        });
+                    }
+                });
+            });
+
+            if (analysisResults.length === 0) {
+                showStatus('analyzeStatus', 'No matches found for the provided keywords', 'error');
+                return;
+            }
+
+            showStatus('analyzeStatus', `Found ${analysisResults.length} matches across ${documents.length} documents`, 'success');
+            displayResults();
+        }
+
+        // Display results in table
+        function displayResults() {
+            const tbody = document.getElementById('resultsBody');
+            tbody.innerHTML = '';
+
+            // Sort results
+            const sorted = [...analysisResults].sort((a, b) => {
+                let aVal = a[currentSort.column];
+                let bVal = b[currentSort.column];
+                
+                if (typeof aVal === 'string') aVal = aVal.toLowerCase();
+                if (typeof bVal === 'string') bVal = bVal.toLowerCase();
+                
+                if (aVal < bVal) return currentSort.ascending ? -1 : 1;
+                if (aVal > bVal) return currentSort.ascending ? 1 : -1;
+                return 0;
+            });
+
+            // Calculate totals per keyword
+            const keywordTotals = {};
+            analysisResults.forEach(result => {
+                if (!keywordTotals[result.keyword]) keywordTotals[result.keyword] = 0;
+                keywordTotals[result.keyword] += result.frequency;
+            });
+
+            sorted.forEach(result => {
+                const row = tbody.insertRow();
+                const linkCell = result.link 
+                    ? '<td class="link-cell"><a href="' + escapeHtml(result.link) + '" target="_blank">view</a></td>'
+                    : '<td class="file-cell">' + escapeHtml(result.fileName) + '</td>';
+                
+                row.innerHTML = '<td class="keyword-cell">' + escapeHtml(result.keyword) + '</td>' +
+                    '<td class="frequency-cell">' + result.frequency + '</td>' +
+                    '<td class="title-cell" title="' + escapeHtml(result.title) + '">' + escapeHtml(result.title) + '</td>' +
+                    '<td class="author-cell">' + escapeHtml(result.author||'') + '</td>' +
+                    '<td>' + escapeHtml(result.date||'') + '</td>' +
+                    '<td class="votes-cell">' + (result.votes||0) + '</td>' +
+                    '<td class="comments-cell">' + (result.comments||0) + '</td>' +
+                    '<td class="category-cell">' + escapeHtml(result.category||'') + '</td>' +
+                    '<td class="excerpt-cell" title="' + escapeHtml(result.excerpt) + '">' + escapeHtml(result.excerpt) + '</td>' +
+                    linkCell;
+            });
+
+            // Summary separator
+            const separatorRow = tbody.insertRow();
+            separatorRow.innerHTML = '<td colspan="10" style="border-top: 2px solid var(--highlight); padding: 0;"></td>';
+            separatorRow.style.backgroundColor = 'var(--accent)';
+
+            // Summary rows
+            Object.keys(keywordTotals).sort().forEach(keyword => {
+                const summaryRow = tbody.insertRow();
+                summaryRow.style.backgroundColor = 'var(--accent)';
+                summaryRow.style.fontWeight = 'bold';
+                summaryRow.style.color = '#ffcc00';
+                summaryRow.innerHTML = '<td class="keyword-cell" style="font-size: 0.9rem; font-weight: 700; color: #ffcc00;">' + escapeHtml(keyword) + '</td>' +
+                    '<td class="frequency-cell" style="font-size: 0.9rem; font-weight: 700; color: #ffcc00;">' + keywordTotals[keyword] + '</td>' +
+                    '<td colspan="8" style="color: #ffcc00; font-size: 0.8rem; font-weight: 700;">total across all sources</td>';
+            });
+
+            document.getElementById('resultsCount').textContent = analysisResults.length + ' results';
+            document.getElementById('resultsSection').classList.add('active');
+        }
+
+        // Sort table
+        function sortTable(column) {
+            if (currentSort.column === column) {
+                currentSort.ascending = !currentSort.ascending;
+            } else {
+                currentSort.column = column;
+                currentSort.ascending = true;
+            }
+            // Update arrows
+            document.querySelectorAll('.sort-arrow').forEach(arrow => arrow.textContent = '');
+            const activeArrow = document.getElementById('sort-' + column);
+            activeArrow.textContent = currentSort.ascending ? '\u25B2' : '\u25BC';
+            displayResults();
+        }
+
+        // Export to CSV
+        function exportToCSV() {
+            if (analysisResults.length === 0) {
+                alert('No results to export');
+                return;
+            }
+            const headers = ['Keyword', 'Frequency', 'Title', 'Author', 'Date', 'Votes', 'Comments', 'Category', 'Excerpt', 'Source'];
+            const rows = analysisResults.map(result => [
+                result.keyword,
+                result.frequency,
+                result.title || '',
+                result.author || '',
+                result.date,
+                result.votes || 0,
+                result.comments || 0,
+                result.category || '',
+                result.excerpt,
+                result.link || result.fileName
+            ]);
+            // Calculate totals
+            const keywordTotals = {};
+            analysisResults.forEach(result => {
+                if (!keywordTotals[result.keyword]) keywordTotals[result.keyword] = 0;
+                keywordTotals[result.keyword] += result.frequency;
+            });
+            // Summary rows
+            const summaryRows = [];
+            summaryRows.push(['', '', '', '', '', '', '', '', '', '']);
+            summaryRows.push(['--- SUMMARY ---', '', '', '', '', '', '', '', '', '']);
+            Object.keys(keywordTotals).sort().forEach(keyword => {
+                summaryRows.push([keyword, keywordTotals[keyword], 'Total appearances across all sources', '', '', '', '', '', '', '']);
+            });
+            const csvContent = [
+                headers.join(','),
+                ...rows.map(row => row.map(cell => '"' + String(cell).replace(/"/g, '""') + '"').join(',')),
+                ...summaryRows.map(row => row.map(cell => '"' + String(cell).replace(/"/g, '""') + '"').join(','))
+            ].join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            const timestamp = getSFTimestamp();
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'github-analysis-' + timestamp + '.csv');
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Initialize sort arrow
+        document.getElementById('sort-keyword').textContent = '\u25BC';
+    </script>
+</body>
+</html>
