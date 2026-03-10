@@ -68,7 +68,7 @@ I am an experienced product manager and researcher for products that service mac
 
 #### Troubleshooting 
 
-While the n created natural language prompt was extensively tested and fine-tuned, LLMs outputs are probabilistic. If the LLM is having challenges/overthinking or potentially overfitting on a single component, then you can “nudge” or “guide” the LLM by providing the LLM with “productade research_ose.html”  and requesting that the LLM use the “productade research_ose.html” as a reference. 
+While the human created natural language prompt was extensively tested and fine-tuned, LLMs outputs are probabilistic. If the LLM is having challenges/overthinking or potentially overfitting on a single component, then you can “nudge” or “guide” the LLM by providing the LLM with “productade research_ose.html”  and requesting that the LLM use the “productade research_ose.html” as a reference. 
 
 ### “Jump In…Build a Personal Prototype Research App” 
 
@@ -103,7 +103,7 @@ Productade Research OSE is a lightweight productivity application to ease produc
 [unconventional underdogs](https://unconventionalunderdogs.com/) focus on building bridges and tunnels to emerging technologies. unconventional underdogs was founded on the belief that technical excellence, product insight, and helpful products don't have to be separate universes. We understand the complexity involved when building emerging, and potentially, disruptive products. We also have deep experience working with technical founders that are akin to unicorns, dragons, and sabertooth tigers. We are here to help and enable, not control.
 
 #### Q. How do I get started?  
-ns have different preferences for learning paths and getting started with new emerging technologies. Choose your own adventure. 
+Humans have different preferences for learning paths and getting started with new emerging technologies. Choose your own adventure. 
 
 ##### Build a Prototype Using a Human Created Natural Language Prompt
 
