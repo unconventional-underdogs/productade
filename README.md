@@ -56,9 +56,9 @@ Then you insert a word or phrase and click “analyze keywords & phrases”.
 
 If you would like to make saved changes, go further, or download a rendered file, then you can create a free account at W3Schools. After completing a free account you can “save the code to W3Schools Spaces”. Then edit or download the fully rendered “productade research_ose.html”. If you click on the download icon in W3Schools Spaces, W3Schools will send you an email when the zip file is ready for download.  
 
-### Build a Prototype Using a n Created Natural Language Prompt
+### Build a Prototype Using a Human Created Natural Language Prompt
 
-Get started quickly by using a n created prompt. This prompt has been tested and fine-tuned in Anthropic Claude’s paid and free plans. As this is a “one-shot” prompt, it includes details that may not typically appear in a n’s first prompt into the large language model (LLM) on a project. 
+Get started quickly by using a human created prompt. This prompt has been tested and fine-tuned in Anthropic Claude’s paid and free plans. As this is a “one-shot” prompt, it includes details that may not typically appear in a n’s first prompt into the large language model (LLM) on a project. 
 
 #Prompt Begins
 
@@ -149,7 +149,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
-| March 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
+| Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
 | Feb 2026 | "The Lesson of A.I. Literacy Class: Don’t Let the Chatbot Think for You" | NYTimes [Link](https://www.nytimes.com/2026/02/23/technology/ai-literacy-newark-school-chatbots.html) |
 | Feb 2026 | "Most Americans say AI will reduce the number of jobs in the U.S." | YouGov Survey [Link](https://today.yougov.com/technology/articles/54123-most-americans-say-ai-artificial-intelligence-will-reduce-number-jobs-in-us-united-states-february-13-16-2026-economist-yougov-poll) |
 | Feb 2026 | "AI Doesn't Reduce Work—It Intensifies It" | Harvard Business Review [Link](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) |
