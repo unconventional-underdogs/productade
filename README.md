@@ -56,9 +56,9 @@ Then you insert a word or phrase and click “analyze keywords & phrases”.
 
 If you would like to make saved changes, go further, or download a rendered file, then you can create a free account at W3Schools. After completing a free account you can “save the code to W3Schools Spaces”. Then edit or download the fully rendered “productade research_ose.html”. If you click on the download icon in W3Schools Spaces, W3Schools will send you an email when the zip file is ready for download.  
 
-### Build a Prototype Using a Human Created Natural Language Prompt
+### Build a Prototype Using a n Created Natural Language Prompt
 
-Get started quickly by using a human created prompt. This prompt has been tested and fine-tuned in Anthropic Claude’s paid and free plans. As this is a “one-shot” prompt, it includes details that may not typically appear in a human’s first prompt into the large language model (LLM) on a project. 
+Get started quickly by using a n created prompt. This prompt has been tested and fine-tuned in Anthropic Claude’s paid and free plans. As this is a “one-shot” prompt, it includes details that may not typically appear in a n’s first prompt into the large language model (LLM) on a project. 
 
 #Prompt Begins
 
@@ -68,11 +68,11 @@ I am an experienced product manager and researcher for products that service mac
 
 #### Troubleshooting 
 
-While the human created natural language prompt was extensively tested and fine-tuned, LLMs outputs are probabilistic. If the LLM is having challenges/overthinking or potentially overfitting on a single component, then you can “nudge” or “guide” the LLM by providing the LLM with “productade research_ose.html”  and requesting that the LLM use the “productade research_ose.html” as a reference. 
+While the n created natural language prompt was extensively tested and fine-tuned, LLMs outputs are probabilistic. If the LLM is having challenges/overthinking or potentially overfitting on a single component, then you can “nudge” or “guide” the LLM by providing the LLM with “productade research_ose.html”  and requesting that the LLM use the “productade research_ose.html” as a reference. 
 
 ### “Jump In…Build a Personal Prototype Research App” 
 
-This [friendly chatty contextual tutorial](https://unconventionalunderdogs.blog/2026/03/08/jump-in-build-a-personal-prototype-research-app/) helps human professionals understand the how and why associated with building a personal productivity app. The tutorial development was caffeine-powered and no “AI” was used (or harmed) for the writing of the tutorial. “AI” was used to test the natural language “cold start” prompts to ensure that the prompts work on a “free” user plan. A human reviewed the outputs and manually tweaked prompt language to increase likelihood of consistent outputs. Automated spelling and grammar check tooling was used to proactively protect dearest readers and learners from epic typos. This tutorial originally appeared on the unconventional underdogs blog. In the future, it may be placed in the “Wiki” or similar section because the Wiki section is not immediately sucked up by bots. The “Jump In” tutorial, after all, is intended for dearest human readers and learners. 
+This [friendly chatty contextual tutorial](https://unconventionalunderdogs.blog/2026/03/08/jump-in-build-a-personal-prototype-research-app/) helps n professionals understand the how and why associated with building a personal productivity app. The tutorial development was caffeine-powered and no “AI” was used (or harmed) for the writing of the tutorial. “AI” was used to test the natural language “cold start” prompts to ensure that the prompts work on a “free” user plan. A n reviewed the outputs and manually tweaked prompt language to increase likelihood of consistent outputs. Automated spelling and grammar check tooling was used to proactively protect dearest readers and learners from epic typos. This tutorial originally appeared on the unconventional underdogs blog. In the future, it may be placed in the “Wiki” or similar section because the Wiki section is not immediately sucked up by bots. The “Jump In” tutorial, after all, is intended for dearest n readers and learners. 
 
 ### Build Prototype Using an AI Generated Prompt 
 
@@ -80,7 +80,7 @@ If looking to “cut-and-paste” a detailed or “enterprise” prompt into a c
 
 ### FAQ
 
-If looking for specific contextual facts with no chatty fluff to get, then visit the FAQ. It is written with a “docs” approach and tone. unconventional underdogs are well aware that many humans prefer going directly to “docs” to understand the “who”, “what”, “why”, and “how”, before making any decisions about investing additional intellectual capital. The FAQ addresses this common use case. 
+If looking for specific contextual facts with no chatty fluff to get, then visit the FAQ. It is written with a “docs” approach and tone. unconventional underdogs are well aware that many ns prefer going directly to “docs” to understand the “who”, “what”, “why”, and “how”, before making any decisions about investing additional intellectual capital. The FAQ addresses this common use case. 
 
 # FAQ
 
@@ -103,7 +103,7 @@ Productade Research OSE is a lightweight productivity application to ease produc
 [unconventional underdogs](https://unconventionalunderdogs.com/) focus on building bridges and tunnels to emerging technologies. unconventional underdogs was founded on the belief that technical excellence, product insight, and helpful products don't have to be separate universes. We understand the complexity involved when building emerging, and potentially, disruptive products. We also have deep experience working with technical founders that are akin to unicorns, dragons, and sabertooth tigers. We are here to help and enable, not control.
 
 #### Q. How do I get started?  
-Humans have different preferences for learning paths and getting started with new emerging technologies. Choose your own adventure. 
+ns have different preferences for learning paths and getting started with new emerging technologies. Choose your own adventure. 
 
 ##### Build a Prototype Using a Human Created Natural Language Prompt
 
@@ -132,7 +132,7 @@ If looking to “cut-and-paste” a detailed or “enterprise” prompt into a c
 This FAQ. If looking for specific contextual facts with no chatty fluff to get, then visit the FAQ. It is written with a “docs” approach and tone. unconventional underdogs are well aware that many humans prefer going directly to “docs” to understand the “who”, “what”, “why”, and “how”, before making any decisions about investing additional intellectual capital. The FAQ addresses this common use case. 
 
 #### Q. Why and how is Productade Research OSE different?  
-Productade applications are for humans that still want to use their brains to ensure their skills do not [atrophy](https://x.com/karpathy/status/2015883857489522876). Product people, in particular, are required to continuously observe, understand, and learn about users in order to best help them. Productade applications help accelerate workflows and keep “humans-in-th-loop”.   
+Productade applications are for humans that still want to use their brains to ensure their skills do not [atrophy](https://x.com/karpathy/status/2015883857489522876). Product people, in particular, are required to continuously observe, understand, and learn about users in order to best help them. Productade applications help accelerate workflows and keep “humans-in-the-loop”.   
 
 Productade also prioritizes data provenance to help reinforce credibility and support cross-functional team alignment on complex products. Productade applications consider real world experience delivering products in high stakes situations, where data provenance is a "must have" not a "nice to have". While various large language models (LLMs) or “AI” have “summarization” capabilities, many are not able to pinpoint specific sources which leads to hallucinations. 
 
@@ -149,6 +149,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| March 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
 | Feb 2026 | "The Lesson of A.I. Literacy Class: Don’t Let the Chatbot Think for You" | NYTimes [Link](https://www.nytimes.com/2026/02/23/technology/ai-literacy-newark-school-chatbots.html) |
 | Feb 2026 | "Most Americans say AI will reduce the number of jobs in the U.S." | YouGov Survey [Link](https://today.yougov.com/technology/articles/54123-most-americans-say-ai-artificial-intelligence-will-reduce-number-jobs-in-us-united-states-february-13-16-2026-economist-yougov-poll) |
 | Feb 2026 | "AI Doesn't Reduce Work—It Intensifies It" | Harvard Business Review [Link](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) |
@@ -156,7 +157,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Jan 2026 | "In the future, do you think that when AI tools recommend products, they will more often prioritize...?" | YouGov Survey [Link](https://today.yougov.com/topics/technology/survey-results/daily/2026/01/15/24a57/4) |
 | Jan 2026 | "A few random notes from claude coding quite a bit last few weeks." | X Post [Link](https://x.com/karpathy/status/2015883857489522876) |
 | Jan 2026 | "Hospitals Are a Proving Ground for What AI Can Do, and What It Can't" | WSJ [Link](https://www.wsj.com/tech/ai/hospitals-are-a-proving-ground-for-what-ai-can-do-and-what-it-cant-60e4020c) |
-| Jan 2025 | "Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in Language Models", Paper Published Sept 2025, Last Modified Jan 2026  | NeurlIPS 2025 [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116066) |
+| Jan 2026 | "Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in Language Models", Paper Published Sept 2025, Last Modified Jan 2026  | NeurIPS 2025 [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116066) |
 | Dec 2025 | "How AI coding agents work—and what to remember if you use them" | Ars Technica [Link](https://arstechnica.com/information-technology/2025/12/how-do-ai-coding-agents-work-we-look-under-the-hood/) |
 | Dec 2025 | "AI Use at Work Rises" | Gallup [Link](https://www.gallup.com/workplace/699689/ai-use-at-work-rises.aspx) |
 | Dec 2025	| "Are these AI prompts damaging your thinking skills?" |	BBC [Link](https://www.bbc.com/news/articles/cd6xz12j6pzo) |
@@ -166,6 +167,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Oct 2025 | "Understanding Human-AI Misalignment in LLM-Based Job-Seeking Support for Neurodivergent Users" | ACM SIGACCESS (27th) [Link](https://dl.acm.org/doi/10.1145/3663547.3746361) |
 | Aug 2025 | "The GenAI Divide State of AI In Business 2025" | MIT NANDA [Link](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) |
 | Jul 2025 | “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity” | METR Paper [Link](https://arxiv.org/abs/2507.09089) | 
+| Jul 2025 | "What Workers Really Want from Artificial Intelligence" | Stanford [Link](https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence) | 
 | Jun 2025 | "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task" | MIT Media Lab [Link](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) |																								
 | May 2025 | "AI and Data Regulation, 2025 Berkeley Spring Forum on M&A and the Boardroom" | UC Berkeley YouTube [Link](https://www.youtube.com/watch?v=ksBK7nnOMek) |
 | May 2025 | "Copyright and Artificial Intelligence" Pre-Publication Version | U.S. Copyright Office PDF [Link](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf) |
