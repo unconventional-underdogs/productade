@@ -149,11 +149,14 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Mar 2026 | "Amazon convenes ‘deep dive’ internal meeting to address outages" | CNBC [Link](https://www.cnbc.com/2026/03/10/amazon-plans-deep-dive-internal-meeting-address-ai-related-outages.html) |
+| Mar 2026 | "Claude outages lay bare software developers' growing reliance on AI: 'I guess I'll write code like a caveman'"| Business Insider [Link](https://www.businessinsider.com/claude-outages-anthropic-ai-software-engineers-developers-coding-dependance-2026-3) |
 | Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
 | Feb 2026 | "The Lesson of A.I. Literacy Class: Don’t Let the Chatbot Think for You" | NYTimes [Link](https://www.nytimes.com/2026/02/23/technology/ai-literacy-newark-school-chatbots.html) |
 | Feb 2026 | "Most Americans say AI will reduce the number of jobs in the U.S." | YouGov Survey [Link](https://today.yougov.com/technology/articles/54123-most-americans-say-ai-artificial-intelligence-will-reduce-number-jobs-in-us-united-states-february-13-16-2026-economist-yougov-poll) |
 | Feb 2026 | "AI Doesn't Reduce Work—It Intensifies It" | Harvard Business Review [Link](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) |
 | Feb 2026 | "AI promised to free up workers' time. UC Berkeley Haas researchers found the opposite." | UC Berkeley [Link](https://newsroom.haas.berkeley.edu/ai-promised-to-free-up-workers-time-uc-berkeley-haas-researchers-found-the-opposite/) |
+| Feb 2026 | "Amazon’s cloud ‘hit by two outages caused by AI tools last year’" | Guardian [Link](https://www.theguardian.com/technology/2026/feb/20/amazon-cloud-outages-ai-tools-amazon-web-services-aws) |
 | Jan 2026 | "In the future, do you think that when AI tools recommend products, they will more often prioritize...?" | YouGov Survey [Link](https://today.yougov.com/topics/technology/survey-results/daily/2026/01/15/24a57/4) |
 | Jan 2026 | "A few random notes from claude coding quite a bit last few weeks." | X Post [Link](https://x.com/karpathy/status/2015883857489522876) |
 | Jan 2026 | "Hospitals Are a Proving Ground for What AI Can Do, and What It Can't" | WSJ [Link](https://www.wsj.com/tech/ai/hospitals-are-a-proving-ground-for-what-ai-can-do-and-what-it-cant-60e4020c) |
@@ -161,14 +164,16 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Dec 2025 | "How AI coding agents work—and what to remember if you use them" | Ars Technica [Link](https://arstechnica.com/information-technology/2025/12/how-do-ai-coding-agents-work-we-look-under-the-hood/) |
 | Dec 2025 | "AI Use at Work Rises" | Gallup [Link](https://www.gallup.com/workplace/699689/ai-use-at-work-rises.aspx) |
 | Dec 2025	| "Are these AI prompts damaging your thinking skills?" |	BBC [Link](https://www.bbc.com/news/articles/cd6xz12j6pzo) |
+| Dec 2025| "Microsoft stock sinks on report AI product sales are missing growth goals"	| CNBC [Link](https://www.cnbc.com/2025/12/03/microsoft-stock-ai-foundry-sales.html#:~:text=Microsoft%20pushed%20back%20on%20a,concepts%20of%20growth%20and%20quotas.)
 | Nov 2025 | "How are Americans using AI? Evidence from a nationwide survey." | Brookings [Link](https://www.brookings.edu/articles/how-are-americans-using-ai-evidence-from-a-nationwide-survey/) |
 | Nov 2025 | "The state of AI in 2025: Agents, innovation, and transformation" | Mckinsey [Link](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/) |
 | Nov 2025 | "Researchers discover a shortcoming that makes LLMs less reliable" | MIT News [Link](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126) |
 | Oct 2025 | "Understanding Human-AI Misalignment in LLM-Based Job-Seeking Support for Neurodivergent Users" | ACM SIGACCESS (27th) [Link](https://dl.acm.org/doi/10.1145/3663547.3746361) |
 | Aug 2025 | "The GenAI Divide State of AI In Business 2025" | MIT NANDA [Link](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) |
+| Aug 2025 | "MIT report: 95% of generative AI pilots at companies are failing" | Fortune [Link](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/}
 | Jul 2025 | “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity” | METR Paper [Link](https://arxiv.org/abs/2507.09089) | 
 | Jul 2025 | "What Workers Really Want from Artificial Intelligence" | Stanford [Link](https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence) | 
-| Jun 2025 | "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task" | MIT Media Lab [Link](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) |																								
+| Jun 2025 | "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task" | MIT Media Lab [Link](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) |																							
 | May 2025 | "AI and Data Regulation, 2025 Berkeley Spring Forum on M&A and the Boardroom" | UC Berkeley YouTube [Link](https://www.youtube.com/watch?v=ksBK7nnOMek) |
 | May 2025 | "Copyright and Artificial Intelligence" Pre-Publication Version | U.S. Copyright Office PDF [Link](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf) |
 | Apr 2025 | "How the U.S. Public and AI Experts View Artificial Intelligence" | Pew Research [Link](https://www.pewresearch.org/wp-content/uploads/sites/20/2025/04/pi_2025.04.03_us-public-and-ai-experts_report.pdf) |
@@ -183,12 +188,15 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | 2025 | Stack Overflow Chart: AI tool's ability to handle complex tasks | Stack Overflow [Link](https://survey.stackoverflow.co/2025/ai#developer-tools-ai-complex) |
 | 2025 | Stack Overflow Chart: AI and humans in the future | Stack Overflow [Link](https://survey.stackoverflow.co/2025/ai#developer-tools-ai-human) |
 | May 2024 | "Is Temperature the Creativity Parameter of Large Language Models?" | ICCC 24, Best Student Paper [Link](https://arxiv.org/abs/2405.00492)|
-| Nov 2023 | "Lost in the Middle: How Language Models Use Long Contexts" Paper Published Jul 2023, Last Modified Nov 2023 | Stanford [Link](https://arxiv.org/abs/2405.00492)|
+| Nov 2023 | "Lost in the Middle: How Language Models Use Long Contexts" Paper Published Jul 2023, Last Modified Nov 2023 | TACL [Link](https://arxiv.org/abs/2307.03172)|
 
 ## Sites and Trackers
 Additional resources for product people that need to monitor latest developments from reputable citable sources. 
 
 | Date | Title | Source |
 |------|-------|--------|
-| 2026 | US State AI Governance Legislation Tracker | iapp [Link](https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker) |
+| 2026 | AI Incidents Database | [Link](https://incidentdatabase.ai/) |
+| 2026 | AI Law Librarians | [Link](https://www.ailawlibrarians.com/) | 
+| 2006 | CourtListener | [Link](https://www.courtlistener.com/) |
 | 2026 | U.S. AI Law Tracker | Orrick [Link](https://ai-law-center.orrick.com/us-ai-law-tracker-see-all-states/) |
+| 2026 | US State AI Governance Legislation Tracker | iapp [Link](https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker) |
