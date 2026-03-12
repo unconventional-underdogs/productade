@@ -170,7 +170,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Nov 2025 | "Researchers discover a shortcoming that makes LLMs less reliable" | MIT News [Link](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126) |
 | Oct 2025 | "Understanding Human-AI Misalignment in LLM-Based Job-Seeking Support for Neurodivergent Users" | ACM SIGACCESS (27th) [Link](https://dl.acm.org/doi/10.1145/3663547.3746361) |
 | Aug 2025 | "The GenAI Divide State of AI In Business 2025" | MIT NANDA [Link](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) |
-| Aug 2025 | "MIT report: 95% of generative AI pilots at companies are failing" | Fortune [Link](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/}
+| Aug 2025 | "MIT report: 95% of generative AI pilots at companies are failing" | Fortune [Link](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)
 | Jul 2025 | “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity” | METR Paper [Link](https://arxiv.org/abs/2507.09089) | 
 | Jul 2025 | "What Workers Really Want from Artificial Intelligence" | Stanford [Link](https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence) | 
 | Jun 2025 | "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task" | MIT Media Lab [Link](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) |																							
