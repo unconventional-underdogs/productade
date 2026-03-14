@@ -80,7 +80,7 @@ If looking to “cut-and-paste” a detailed or “enterprise” prompt into a c
 
 ### FAQ
 
-If looking for specific contextual facts with no chatty fluff to get, then visit the FAQ. It is written with a “docs” approach and tone. unconventional underdogs are well aware that many ns prefer going directly to “docs” to understand the “who”, “what”, “why”, and “how”, before making any decisions about investing additional intellectual capital. The FAQ addresses this common use case. 
+If looking for specific contextual facts with no chatty fluff to get, then visit the FAQ. It is written with a “docs” approach and tone. unconventional underdogs are well aware that many humans prefer going directly to “docs” to understand the “who”, “what”, “why”, and “how”, before making any decisions about investing additional intellectual capital. The FAQ addresses this common use case. 
 
 # FAQ
 
@@ -149,9 +149,11 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Mar 2026 | "Coding After Coders: The End of Computer Programming as We Know It" | NYTimes [Link](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.S1A.Wj2I.GFnB7ufQCCrA&smid=url-share)
 | Mar 2026 | "Amazon convenes ‘deep dive’ internal meeting to address outages" | CNBC [Link](https://www.cnbc.com/2026/03/10/amazon-plans-deep-dive-internal-meeting-address-ai-related-outages.html) |
 | Mar 2026 | "Claude outages lay bare software developers' growing reliance on AI: 'I guess I'll write code like a caveman'"| Business Insider [Link](https://www.businessinsider.com/claude-outages-anthropic-ai-software-engineers-developers-coding-dependance-2026-3) |
 | Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
+| Feb 2026 | "The Siren Song of LLMs: How Users Perceive and Respond to Dark Patterns in Large Language Models", Created Sept 2025, Last Updated Feb 2026, | Accepted Paper to CHI '26 in April 2026 [Link](https://arxiv.org/abs/2509.10830) |
 | Feb 2026 | "The Lesson of A.I. Literacy Class: Don’t Let the Chatbot Think for You" | NYTimes [Link](https://www.nytimes.com/2026/02/23/technology/ai-literacy-newark-school-chatbots.html) |
 | Feb 2026 | "Most Americans say AI will reduce the number of jobs in the U.S." | YouGov Survey [Link](https://today.yougov.com/technology/articles/54123-most-americans-say-ai-artificial-intelligence-will-reduce-number-jobs-in-us-united-states-february-13-16-2026-economist-yougov-poll) |
 | Feb 2026 | "AI Doesn't Reduce Work—It Intensifies It" | Harvard Business Review [Link](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) |
