@@ -144,7 +144,15 @@ Based on observing humans engaging with product documentation online, it is like
 
 
 # Resources
-## Artifacts
+## Productade Artifacts
+Contextual introductions, hands-on guides, and actionable insights to help product people broker alignment and make their own tradeoff decisions 
+
+| Title | Source |
+|-------|--------|
+| "Jump In…Build A Personal Prototype Research App" | [Link](https://unconventionalunderdogs.blog/2026/03/08/jump-in-build-a-personal-prototype-research-app/) | 
+| "All About The Context: A Contextual First Step Into Building With LLMs Or AI" | [Link](https://unconventionalunderdogs.blog/2026/03/25/all-about-the-context/) |
+
+## Institutional, Industry, and Academic Artifacts
 Specific evidence on "why" there is a need share insights, tips, and best practices on working with AI. 
 
 | Date | Title | Source |
@@ -153,7 +161,13 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Mar 2026 | "Amazon convenes ‘deep dive’ internal meeting to address outages" | CNBC [Link](https://www.cnbc.com/2026/03/10/amazon-plans-deep-dive-internal-meeting-address-ai-related-outages.html) |
 | Mar 2026 | "Claude outages lay bare software developers' growing reliance on AI: 'I guess I'll write code like a caveman'"| Business Insider [Link](https://www.businessinsider.com/claude-outages-anthropic-ai-software-engineers-developers-coding-dependance-2026-3) |
 | Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
+| Mar 2026 | "You’ve Finally Figured Out AI at Work—Now Comes the Bill" | WSJ [Link](https://www.wsj.com/tech/ai/ai-tokens-productivity-d35c6bd8?st=C7CA9r&reflink=desktopwebshare_permalink) | 
+| Mar 2026 | "Meta is having trouble with rogue AI agents" | TechCrunch [Link](https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/) | 
+| Mar 2026 | "The Hottest Job in Tech Isn’t Very Glamorous: Job postings for ‘forward deployed engineers’ are surging among tech companies. But engineers aren’t exactly clamoring for the role." | WSJ [Link](https://www.wsj.com/cio-journal/the-hottest-job-in-tech-isnt-very-glamorous-dc29ab3e) |
+| Mar 2026 | "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization" | WSJ [Link](https://www.wsj.com/tech/ai/microsoft-seeks-more-coherence-in-ai-efforts-with-copilot-reorganization-a985b374?mod=WTRN_pos5) |
+| Mar 2026 | "OpenAI preps for IPO by end of year, tells employees ChatGPT must be ‘productivity tool’"| CNBC [Link](https://www.cnbc.com/2026/03/17/openai-preps-for-ipo-in-2026-says-chatgpt-must-be-productivity-tool.html) | 
 | Feb 2026 | "The Siren Song of LLMs: How Users Perceive and Respond to Dark Patterns in Large Language Models", Created Sept 2025, Last Updated Feb 2026, | Accepted Paper to CHI '26 in April 2026 [Link](https://arxiv.org/abs/2509.10830) |
+| Feb 2026 | "Companies replaced entry-level workers with AI. Now they are paying the price." | Fast Company [Link](https://www.fastcompany.com/91483431/companies-replaced-entry-level-workers-with-ai) |
 | Feb 2026 | "The Lesson of A.I. Literacy Class: Don’t Let the Chatbot Think for You" | NYTimes [Link](https://www.nytimes.com/2026/02/23/technology/ai-literacy-newark-school-chatbots.html) |
 | Feb 2026 | "Most Americans say AI will reduce the number of jobs in the U.S." | YouGov Survey [Link](https://today.yougov.com/technology/articles/54123-most-americans-say-ai-artificial-intelligence-will-reduce-number-jobs-in-us-united-states-february-13-16-2026-economist-yougov-poll) |
 | Feb 2026 | "AI Doesn't Reduce Work—It Intensifies It" | Harvard Business Review [Link](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) |
@@ -170,6 +184,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Nov 2025 | "How are Americans using AI? Evidence from a nationwide survey." | Brookings [Link](https://www.brookings.edu/articles/how-are-americans-using-ai-evidence-from-a-nationwide-survey/) |
 | Nov 2025 | "The state of AI in 2025: Agents, innovation, and transformation" | Mckinsey [Link](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/) |
 | Nov 2025 | "Researchers discover a shortcoming that makes LLMs less reliable" | MIT News [Link](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126) |
+| Nov 2025 | "Microsoft faces uphill climb to turn enterprise dominance into widespread AI chatbot adoption" | CNBC [Link](https://www.cnbc.com/2025/11/23/microsoft-faces-uphill-climb-to-win-in-ai-chatbots-with-copilot.html) |
 | Oct 2025 | "Understanding Human-AI Misalignment in LLM-Based Job-Seeking Support for Neurodivergent Users" | ACM SIGACCESS (27th) [Link](https://dl.acm.org/doi/10.1145/3663547.3746361) |
 | Aug 2025 | "The GenAI Divide State of AI In Business 2025" | MIT NANDA [Link](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) |
 | Aug 2025 | "MIT report: 95% of generative AI pilots at companies are failing" | Fortune [Link](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)
