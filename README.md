@@ -157,7 +157,9 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
-| Mar 2026 | "Coding After Coders: The End of Computer Programming as We Know It" | NYTimes [Link](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.S1A.Wj2I.GFnB7ufQCCrA&smid=url-share)
+| Mar 2026 | "As Trump rolls back protections, Governor Newsom signs first-of-its-kind executive order to strengthen AI protections and responsible use" | CA State Press Release [Link](https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/) |
+| Mar 2026 | Executive Department State of California "EXECUTIVE ORDER N-5-26" | EXECUTIVE ORDER N-5-26 [Link](https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf) |
+| Mar 2026 | "Coding After Coders: The End of Computer Programming as We Know It" | NYTimes [Link](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.S1A.Wj2I.GFnB7ufQCCrA&smid=url-share) |
 | Mar 2026 | "Amazon convenes ‘deep dive’ internal meeting to address outages" | CNBC [Link](https://www.cnbc.com/2026/03/10/amazon-plans-deep-dive-internal-meeting-address-ai-related-outages.html) |
 | Mar 2026 | "Claude outages lay bare software developers' growing reliance on AI: 'I guess I'll write code like a caveman'"| Business Insider [Link](https://www.businessinsider.com/claude-outages-anthropic-ai-software-engineers-developers-coding-dependance-2026-3) |
 | Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
@@ -174,7 +176,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Feb 2026 | "AI promised to free up workers' time. UC Berkeley Haas researchers found the opposite." | UC Berkeley [Link](https://newsroom.haas.berkeley.edu/ai-promised-to-free-up-workers-time-uc-berkeley-haas-researchers-found-the-opposite/) |
 | Feb 2026 | "Amazon’s cloud ‘hit by two outages caused by AI tools last year’" | Guardian [Link](https://www.theguardian.com/technology/2026/feb/20/amazon-cloud-outages-ai-tools-amazon-web-services-aws) |
 | Jan 2026 | "In the future, do you think that when AI tools recommend products, they will more often prioritize...?" | YouGov Survey [Link](https://today.yougov.com/topics/technology/survey-results/daily/2026/01/15/24a57/4) |
-| Jan 2026 | "A few random notes from claude coding quite a bit last few weeks." | X Post [Link](https://x.com/karpathy/status/2015883857489522876) |
+| Jan 2026 | "A few random notes from claude coding quite a bit last few weeks." | Karpathy X Post [Link](https://x.com/karpathy/status/2015883857489522876) |
 | Jan 2026 | "Hospitals Are a Proving Ground for What AI Can Do, and What It Can't" | WSJ [Link](https://www.wsj.com/tech/ai/hospitals-are-a-proving-ground-for-what-ai-can-do-and-what-it-cant-60e4020c) |
 | Jan 2026 | "Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in Language Models", Paper Published Sept 2025, Last Modified Jan 2026  | NeurIPS 2025 [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116066) |
 | Dec 2025 | "How AI coding agents work—and what to remember if you use them" | Ars Technica [Link](https://arstechnica.com/information-technology/2025/12/how-do-ai-coding-agents-work-we-look-under-the-hood/) |
@@ -190,7 +192,8 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Aug 2025 | "MIT report: 95% of generative AI pilots at companies are failing" | Fortune [Link](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)
 | Jul 2025 | “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity” | METR Paper [Link](https://arxiv.org/abs/2507.09089) | 
 | Jul 2025 | "What Workers Really Want from Artificial Intelligence" | Stanford [Link](https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence) | 
-| Jun 2025 | "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task" | MIT Media Lab [Link](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) |																							
+| Jun 2025 | "Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task" | MIT Media Lab [Link](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) |	
+| Jun 2025 | "+1 for "context engineering" over "prompt engineering”."| Karpathy X Post  [Link](https://x.com/karpathy/status/1937902205765607626) |	
 | May 2025 | "AI and Data Regulation, 2025 Berkeley Spring Forum on M&A and the Boardroom" | UC Berkeley YouTube [Link](https://www.youtube.com/watch?v=ksBK7nnOMek) |
 | May 2025 | "Copyright and Artificial Intelligence" Pre-Publication Version | U.S. Copyright Office PDF [Link](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf) |
 | Apr 2025 | "How the U.S. Public and AI Experts View Artificial Intelligence" | Pew Research [Link](https://www.pewresearch.org/wp-content/uploads/sites/20/2025/04/pi_2025.04.03_us-public-and-ai-experts_report.pdf) |
@@ -217,4 +220,4 @@ Additional resources for product people that need to monitor latest developments
 | 2006 | CourtListener | [Link](https://www.courtlistener.com/) |
 | 2026 | U.S. AI Law Tracker | Orrick [Link](https://ai-law-center.orrick.com/us-ai-law-tracker-see-all-states/) |
 | 2026 | US State AI Governance Legislation Tracker | iapp [Link](https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker) |
-| 2006 | AI Hallucination Cases | [Link](https://www.damiencharlotin.com/hallucinations/) | 
+| 2026 | AI Hallucination Cases | [Link](https://www.damiencharlotin.com/hallucinations/) | 
