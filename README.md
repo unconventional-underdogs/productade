@@ -217,7 +217,7 @@ Additional resources for product people that need to monitor latest developments
 |------|-------|--------|
 | 2026 | AI Incidents Database | [Link](https://incidentdatabase.ai/) |
 | 2026 | AI Law Librarians | [Link](https://www.ailawlibrarians.com/) | 
-| 2006 | CourtListener | [Link](https://www.courtlistener.com/) |
+| 2026 | CourtListener | [Link](https://www.courtlistener.com/) |
 | 2026 | U.S. AI Law Tracker | Orrick [Link](https://ai-law-center.orrick.com/us-ai-law-tracker-see-all-states/) |
 | 2026 | US State AI Governance Legislation Tracker | iapp [Link](https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker) |
 | 2026 | AI Hallucination Cases | [Link](https://www.damiencharlotin.com/hallucinations/) | 
