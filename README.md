@@ -157,6 +157,9 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "LLM Knowledge Bases" | Karpathy X Post [Link](https://x.com/karpathy/status/2039805659525644595) |
+| Mar 2026 | "Peer-Preservation in Frontier Models: Emergent misaligned behaviors in multi-agent systems" | UC Berkeley [Link](https://rdi.berkeley.edu/blog/peer-preservation/) |
+| Mar 2026 | "Number of AI chatbots ignoring human instructions increasing, study says. Exclusive: Research finds sharp rise in models evading safeguards and destroying emails without permission" | Guardian [Link](https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says) |
 | Mar 2026 | "As Trump rolls back protections, Governor Newsom signs first-of-its-kind executive order to strengthen AI protections and responsible use" | CA State Press Release [Link](https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/) |
 | Mar 2026 | Executive Department State of California "EXECUTIVE ORDER N-5-26" | EXECUTIVE ORDER N-5-26 [Link](https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf) |
 | Mar 2026 | "Coding After Coders: The End of Computer Programming as We Know It" | NYTimes [Link](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.S1A.Wj2I.GFnB7ufQCCrA&smid=url-share) |
