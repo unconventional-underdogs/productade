@@ -157,6 +157,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks" | MIT [Link](https://futuretech.mit.edu/publication/crashing-waves-vs-rising-tides-preliminary-findings-on-ai-automation-from-thousands-of-worker-evaluations-of-labor-market-tasks) |
 | Apr 2026 | "Sam Altman May Control Our Future - Can He Be Trusted?" | New Yorker [Link](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) |
 | Apr 2026 | "Why Some Employees Are Feeling Overwhelmed By Having To Use AI At Work" | CNBC [Link](https://www.youtube.com/watch?v=Cp0-Yu31uJ4) |
 | Apr 2026 | "LLM Knowledge Bases" | Karpathy X Post [Link](https://x.com/karpathy/status/2039805659525644595) |
