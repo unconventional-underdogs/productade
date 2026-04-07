@@ -157,6 +157,8 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "Sam Altman May Control Our Future - Can He Be Trusted?" | New Yorker [Link](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) |
+| Apr 2026 | "Why Some Employees Are Feeling Overwhelmed By Having To Use AI At Work" | CNBC [Link](https://www.youtube.com/watch?v=Cp0-Yu31uJ4) |
 | Apr 2026 | "LLM Knowledge Bases" | Karpathy X Post [Link](https://x.com/karpathy/status/2039805659525644595) |
 | Mar 2026 | "Peer-Preservation in Frontier Models: Emergent misaligned behaviors in multi-agent systems" | UC Berkeley [Link](https://rdi.berkeley.edu/blog/peer-preservation/) |
 | Mar 2026 | "Number of AI chatbots ignoring human instructions increasing, study says. Exclusive: Research finds sharp rise in models evading safeguards and destroying emails without permission" | Guardian [Link](https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says) |
@@ -218,9 +220,10 @@ Additional resources for product people that need to monitor latest developments
 
 | Date | Title | Source |
 |------|-------|--------|
+| 2026 | ACM Digital Library | [Link](https://www.acm.org/publications/digital-library) |
+| 2026 | AI Hallucination Cases | [Link](https://www.damiencharlotin.com/hallucinations/) | 
 | 2026 | AI Incidents Database | [Link](https://incidentdatabase.ai/) |
 | 2026 | AI Law Librarians | [Link](https://www.ailawlibrarians.com/) | 
 | 2026 | CourtListener | [Link](https://www.courtlistener.com/) |
 | 2026 | U.S. AI Law Tracker | Orrick [Link](https://ai-law-center.orrick.com/us-ai-law-tracker-see-all-states/) |
 | 2026 | US State AI Governance Legislation Tracker | iapp [Link](https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker) |
-| 2026 | AI Hallucination Cases | [Link](https://www.damiencharlotin.com/hallucinations/) | 
