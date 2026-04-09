@@ -16,10 +16,10 @@ This readme includes the following sections:
 ## Getting Started 
 
 Humans have different preferences for learning paths and getting started. Multiple options are provided: 
-- [Download and Use Productade Research](https://github.com/unconventional-underdogs/productade/edit/main/README.md#download-and-use-productade-research-ose)
-- [Build a Prototype Using a Human Created Natural Language Prompt](https://github.com/unconventional-underdogs/productade/edit/main/README.md#build-a-prototype-using-a-human-created-natural-language-prompt)
-- [“Jump In…Build a Personal Prototype Research App” (Using a Contextual Friendly Tutorial)](https://github.com/unconventional-underdogs/productade/edit/main/README.md#jump-inbuild-a-personal-prototype-research-app)
-- [Build a Prototype Using an AI Generated Prompt](https://github.com/unconventional-underdogs/productade/edit/main/README.md#build-prototype-using-an-ai-generated-prompt) 
+- [Download and Use Productade Research](https://github.com/unconventional-underdogs/productade/tree/main?tab=readme-ov-file#download-and-use-productade-research-ose)
+- [Build a Prototype Using a Human Created Natural Language Prompt](https://github.com/unconventional-underdogs/productade/tree/main?tab=readme-ov-file#build-a-prototype-using-a-human-created-natural-language-prompt)
+- [“Jump In…Build a Personal Prototype Research App” (Using a Contextual Friendly Tutorial)](https://github.com/unconventional-underdogs/productade/tree/main?tab=readme-ov-file#jump-inbuild-a-personal-prototype-research-app)
+- [Build a Prototype Using an AI Generated Prompt](https://github.com/unconventional-underdogs/productade/tree/main?tab=readme-ov-file#build-prototype-using-an-ai-generated-prompt) 
 
 Choose your own adventure. 
 
