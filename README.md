@@ -16,10 +16,10 @@ This readme includes the following sections:
 ## Getting Started 
 
 Humans have different preferences for learning paths and getting started. Multiple options are provided: 
-- Download and Use Productade Research
-- Build a Prototype Using a Human Created Natural Language Prompt
-- “Jump In…Build a Personal Prototype Research App” (Using a Contextual Friendly Tutorial)
-- Build a Prototype Using an AI Generated Prompt 
+- [Download and Use Productade Research](https://github.com/unconventional-underdogs/productade/edit/main/README.md#download-and-use-productade-research-ose)
+- [Build a Prototype Using a Human Created Natural Language Prompt](https://github.com/unconventional-underdogs/productade/edit/main/README.md#build-a-prototype-using-a-human-created-natural-language-prompt)
+- [“Jump In…Build a Personal Prototype Research App” (Using a Contextual Friendly Tutorial)](https://github.com/unconventional-underdogs/productade/edit/main/README.md#jump-inbuild-a-personal-prototype-research-app)
+- [Build a Prototype Using an AI Generated Prompt](https://github.com/unconventional-underdogs/productade/edit/main/README.md#build-prototype-using-an-ai-generated-prompt) 
 
 Choose your own adventure. 
 
@@ -157,10 +157,15 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "How AI may reshape career pathways to better jobs" | Brookings [Link](https://www.brookings.edu/articles/how-ai-may-reshape-career-pathways-to-better-jobs/) |
+| Apr 2026 | "Data Privacy and Foundation Models: Can We Have Both?" | Stanford [Link](https://hai.stanford.edu/policy/data-privacy-and-foundation-models-can-we-have-both) |
 | Apr 2026 | "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks" | MIT [Link](https://futuretech.mit.edu/publication/crashing-waves-vs-rising-tides-preliminary-findings-on-ai-automation-from-thousands-of-worker-evaluations-of-labor-market-tasks) |
+| Apr 2026 | "White-collar industries bet on a secret weapon against AI: trust" | Financial Times [Link](https://www.ft.com/content/72c20f77-e85d-49cb-84ef-4b676244d1c5?syn-25a6b1a6=1) |
+| Apr 2026 | "'The problem is Sam Altman': OpenAI insiders don’t trust CEO. OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes." | Ars Technica [Link](https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/) |
 | Apr 2026 | "Sam Altman May Control Our Future - Can He Be Trusted?" | New Yorker [Link](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) |
 | Apr 2026 | "Why Some Employees Are Feeling Overwhelmed By Having To Use AI At Work" | CNBC [Link](https://www.youtube.com/watch?v=Cp0-Yu31uJ4) |
 | Apr 2026 | "LLM Knowledge Bases" | Karpathy X Post [Link](https://x.com/karpathy/status/2039805659525644595) |
+| Apr 2026 | "Testing suggests Google's AI Overviews tells millions of lies per hour: Is 90 percent accuracy good enough for a search robot?" | Ars Technica [Link](https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/) |
 | Mar 2026 | "Peer-Preservation in Frontier Models: Emergent misaligned behaviors in multi-agent systems" | UC Berkeley [Link](https://rdi.berkeley.edu/blog/peer-preservation/) |
 | Mar 2026 | "Number of AI chatbots ignoring human instructions increasing, study says. Exclusive: Research finds sharp rise in models evading safeguards and destroying emails without permission" | Guardian [Link](https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says) |
 | Mar 2026 | "As Trump rolls back protections, Governor Newsom signs first-of-its-kind executive order to strengthen AI protections and responsible use" | CA State Press Release [Link](https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/) |
