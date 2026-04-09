@@ -93,7 +93,7 @@ Productade applications help accelerate product workflows.
 #### Q. What is Productade Research OSE?   
 Productade Research OSE is a lightweight productivity application to ease product research workflows. unconventional underdogs developed various proprietary productivity applications to help accelerate product research while prioritizing data provenance. Prioritizing data provenance supports product-market fit and cross-alignment tradeoff discussions amongst multiple invested teams. unconventional underdogs decided to open source a limited feature application to help other product-oriented people ease their workflows and support maintaining credibility with paired data provenance. See [artifacts](https://github.com/unconventional-underdogs/productade/tree/main?tab=readme-ov-file#artifacts) for specific evidence on why there is a need for people to share upskilling insights, tooling, and best practices. 
 
-#### Q. Why is it called Producatade?   
+#### Q. Why is it called Productade?   
 "Productade" is a uniquely created word. Productade is a play on "product aide", "product assistant", as well as the suffix "ade", a refreshing beverage. Productade applications aim to be helpful refreshing options.
 
 #### Q. Who developed Productade?   
@@ -157,6 +157,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "Your Chatbot’s Memory of You Can Shape the Information You See" | Columbia [Link](https://www.cjr.org/tow_center/chatbots-memory-remember-users-conversations-history-openai-sam-altman-llm-gemini.php) |
 | Apr 2026 | "How AI may reshape career pathways to better jobs" | Brookings [Link](https://www.brookings.edu/articles/how-ai-may-reshape-career-pathways-to-better-jobs/) |
 | Apr 2026 | "Data Privacy and Foundation Models: Can We Have Both?" | Stanford [Link](https://hai.stanford.edu/policy/data-privacy-and-foundation-models-can-we-have-both) |
 | Apr 2026 | "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks" | MIT [Link](https://futuretech.mit.edu/publication/crashing-waves-vs-rising-tides-preliminary-findings-on-ai-automation-from-thousands-of-worker-evaluations-of-labor-market-tasks) |
@@ -165,7 +166,6 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Apr 2026 | "Sam Altman May Control Our Future - Can He Be Trusted?" | New Yorker [Link](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) |
 | Apr 2026 | "Why Some Employees Are Feeling Overwhelmed By Having To Use AI At Work" | CNBC [Link](https://www.youtube.com/watch?v=Cp0-Yu31uJ4) |
 | Apr 2026 | "LLM Knowledge Bases" | Karpathy X Post [Link](https://x.com/karpathy/status/2039805659525644595) |
-| Apr 2026 | "Testing suggests Google's AI Overviews tells millions of lies per hour: Is 90 percent accuracy good enough for a search robot?" | Ars Technica [Link](https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/) |
 | Mar 2026 | "Peer-Preservation in Frontier Models: Emergent misaligned behaviors in multi-agent systems" | UC Berkeley [Link](https://rdi.berkeley.edu/blog/peer-preservation/) |
 | Mar 2026 | "Number of AI chatbots ignoring human instructions increasing, study says. Exclusive: Research finds sharp rise in models evading safeguards and destroying emails without permission" | Guardian [Link](https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says) |
 | Mar 2026 | "As Trump rolls back protections, Governor Newsom signs first-of-its-kind executive order to strengthen AI protections and responsible use" | CA State Press Release [Link](https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/) |
@@ -175,10 +175,12 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Mar 2026 | "Claude outages lay bare software developers' growing reliance on AI: 'I guess I'll write code like a caveman'"| Business Insider [Link](https://www.businessinsider.com/claude-outages-anthropic-ai-software-engineers-developers-coding-dependance-2026-3) |
 | Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
 | Mar 2026 | "You’ve Finally Figured Out AI at Work—Now Comes the Bill" | WSJ [Link](https://www.wsj.com/tech/ai/ai-tokens-productivity-d35c6bd8?st=C7CA9r&reflink=desktopwebshare_permalink) | 
-| Mar 2026 | "Meta is having trouble with rogue AI agents" | TechCrunch [Link](https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/) | 
+| Mar 2026 | "Sycophantic AI decreases prosocial intentions and promotes dependence" | Stanford & CMU [Link](https://www.science.org/doi/10.1126/science.aec8352) | 
+| Mar 2026 | "Meta is having trouble with rogue AI agents" | TechCrunch [Link](https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/) |
 | Mar 2026 | "The Hottest Job in Tech Isn’t Very Glamorous: Job postings for ‘forward deployed engineers’ are surging among tech companies. But engineers aren’t exactly clamoring for the role." | WSJ [Link](https://www.wsj.com/cio-journal/the-hottest-job-in-tech-isnt-very-glamorous-dc29ab3e) |
 | Mar 2026 | "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization" | WSJ [Link](https://www.wsj.com/tech/ai/microsoft-seeks-more-coherence-in-ai-efforts-with-copilot-reorganization-a985b374?mod=WTRN_pos5) |
 | Mar 2026 | "OpenAI preps for IPO by end of year, tells employees ChatGPT must be ‘productivity tool’"| CNBC [Link](https://www.cnbc.com/2026/03/17/openai-preps-for-ipo-in-2026-says-chatgpt-must-be-productivity-tool.html) | 
+| Mar 2026 | "Get Ready for More Big Tech Lawsuits About Design, Not Content"| Columbia [Link](https://www.cjr.org/tow_center/get-ready-more-big-tech-lawsuits-design-not-content-first-amendment-section-230.php) | 
 | Feb 2026 | "The Siren Song of LLMs: How Users Perceive and Respond to Dark Patterns in Large Language Models", Created Sept 2025, Last Updated Feb 2026, | Accepted Paper to CHI '26 in April 2026 [Link](https://arxiv.org/abs/2509.10830) |
 | Feb 2026 | "Companies replaced entry-level workers with AI. Now they are paying the price." | Fast Company [Link](https://www.fastcompany.com/91483431/companies-replaced-entry-level-workers-with-ai) |
 | Feb 2026 | "The Lesson of A.I. Literacy Class: Don’t Let the Chatbot Think for You" | NYTimes [Link](https://www.nytimes.com/2026/02/23/technology/ai-literacy-newark-school-chatbots.html) |
@@ -199,6 +201,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Nov 2025 | "Researchers discover a shortcoming that makes LLMs less reliable" | MIT News [Link](https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126) |
 | Nov 2025 | "Microsoft faces uphill climb to turn enterprise dominance into widespread AI chatbot adoption" | CNBC [Link](https://www.cnbc.com/2025/11/23/microsoft-faces-uphill-climb-to-win-in-ai-chatbots-with-copilot.html) |
 | Oct 2025 | "Understanding Human-AI Misalignment in LLM-Based Job-Seeking Support for Neurodivergent Users" | ACM SIGACCESS (27th) [Link](https://dl.acm.org/doi/10.1145/3663547.3746361) |
+| Oct 2025 | "Generative AI and news report 2025: How people think about AI’s role in journalism and society" | Reuters & Oxford [Link](https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society) |
 | Aug 2025 | "The GenAI Divide State of AI In Business 2025" | MIT NANDA [Link](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) |
 | Aug 2025 | "MIT report: 95% of generative AI pilots at companies are failing" | Fortune [Link](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)
 | Jul 2025 | “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity” | METR Paper [Link](https://arxiv.org/abs/2507.09089) | 
@@ -233,3 +236,4 @@ Additional resources for product people that need to monitor latest developments
 | 2026 | CourtListener | [Link](https://www.courtlistener.com/) |
 | 2026 | U.S. AI Law Tracker | Orrick [Link](https://ai-law-center.orrick.com/us-ai-law-tracker-see-all-states/) |
 | 2026 | US State AI Governance Legislation Tracker | iapp [Link](https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker) |
+| 2025 | Lawfare Section 230 Tracker - Last Updated Oct 2025 | [Link](https://www.lawfaremedia.org/projects-series/lawfare-research-intiative/section-230-tracker)
