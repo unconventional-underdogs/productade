@@ -157,7 +157,11 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "Rising AI Adoption Spurs Workforce Changes" | Gallup [Link](https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx) |
+| Apr 2026 | "The 2026 AI Index Report" | Stanford [Link](https://hai.stanford.edu/ai-index/2026-ai-index-report) |
+| Apr 2026 | "Read OpenAI’s latest internal memo about beating the competition — including Anthropic" | Verge [Link](https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic) |
 | Apr 2026 | "Your Chatbot’s Memory of You Can Shape the Information You See" | Columbia [Link](https://www.cjr.org/tow_center/chatbots-memory-remember-users-conversations-history-openai-sam-altman-llm-gemini.php) |
+| Apr 2026 | "From LLMs to hallucinations, here’s a simple guide to common AI terms" | TechCrunch [Link](https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/) |
 | Apr 2026 | "How AI may reshape career pathways to better jobs" | Brookings [Link](https://www.brookings.edu/articles/how-ai-may-reshape-career-pathways-to-better-jobs/) |
 | Apr 2026 | "Data Privacy and Foundation Models: Can We Have Both?" | Stanford [Link](https://hai.stanford.edu/policy/data-privacy-and-foundation-models-can-we-have-both) |
 | Apr 2026 | "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks" | MIT [Link](https://futuretech.mit.edu/publication/crashing-waves-vs-rising-tides-preliminary-findings-on-ai-automation-from-thousands-of-worker-evaluations-of-labor-market-tasks) |
