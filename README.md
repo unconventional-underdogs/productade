@@ -159,6 +159,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 |------|-------|--------|
 | Apr 2026 | "Rising AI Adoption Spurs Workforce Changes" | Gallup [Link](https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx) |
 | Apr 2026 | "The 2026 AI Index Report" | Stanford [Link](https://hai.stanford.edu/ai-index/2026-ai-index-report) |
+| Apr 2026 | "Stanford report highlights growing disconnect between AI insiders and everyone else" | TechCrunch [Link](https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/) |
 | Apr 2026 | "Read OpenAI’s latest internal memo about beating the competition — including Anthropic" | Verge [Link](https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic) |
 | Apr 2026 | "Your Chatbot’s Memory of You Can Shape the Information You See" | Columbia [Link](https://www.cjr.org/tow_center/chatbots-memory-remember-users-conversations-history-openai-sam-altman-llm-gemini.php) |
 | Apr 2026 | "From LLMs to hallucinations, here’s a simple guide to common AI terms" | TechCrunch [Link](https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/) |
@@ -178,6 +179,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 | Mar 2026 | "Amazon convenes ‘deep dive’ internal meeting to address outages" | CNBC [Link](https://www.cnbc.com/2026/03/10/amazon-plans-deep-dive-internal-meeting-address-ai-related-outages.html) |
 | Mar 2026 | "Claude outages lay bare software developers' growing reliance on AI: 'I guess I'll write code like a caveman'"| Business Insider [Link](https://www.businessinsider.com/claude-outages-anthropic-ai-software-engineers-developers-coding-dependance-2026-3) |
 | Mar 2026 | "When Using AI Leads to “Brain Fry" | Harvard Business Review [Link](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
+| Mar 2026 | "Key findings about how Americans view artificial intelligence" | Pew Research [Link](https://www.pewresearch.org/short-reads/2026/03/12/key-findings-about-how-americans-view-artificial-intelligence/) | 
 | Mar 2026 | "You’ve Finally Figured Out AI at Work—Now Comes the Bill" | WSJ [Link](https://www.wsj.com/tech/ai/ai-tokens-productivity-d35c6bd8?st=C7CA9r&reflink=desktopwebshare_permalink) | 
 | Mar 2026 | "Sycophantic AI decreases prosocial intentions and promotes dependence" | Stanford & CMU [Link](https://www.science.org/doi/10.1126/science.aec8352) | 
 | Mar 2026 | "Meta is having trouble with rogue AI agents" | TechCrunch [Link](https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/) |
