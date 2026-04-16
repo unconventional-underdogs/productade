@@ -157,6 +157,7 @@ Specific evidence on "why" there is a need share insights, tips, and best practi
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "We Don’t Really Know How A.I. Works. That’s a Problem. For us to trust it on certain subjects, researchers in the growing field of interpretability might need to learn how to open the black box of its brain." | NYTimes [Link](https://www.nytimes.com/2026/04/15/magazine/ai-black-box-interpretability-research.html?unlocked_article_code=1.bVA.lqQd.R0bXUKADBhO0&smid=url-share) |
 | Apr 2026 | "Rising AI Adoption Spurs Workforce Changes" | Gallup [Link](https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx) |
 | Apr 2026 | "The 2026 AI Index Report" | Stanford [Link](https://hai.stanford.edu/ai-index/2026-ai-index-report) |
 | Apr 2026 | "Stanford report highlights growing disconnect between AI insiders and everyone else" | TechCrunch [Link](https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/) |
