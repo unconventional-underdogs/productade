@@ -145,7 +145,7 @@ Based on observing humans engaging with product documentation online, it is like
 
 # Resources
 ## Productade Artifacts
-Contextual introductions, hands-on guides, and actionable insights to help product people broker alignment and make their own tradeoff decisions 
+Contextual introductions, hands-on guides, and actionable insights to help product people broker alignment and make their own tradeoff decisions. 
 
 | Title | Source |
 |-------|--------|
