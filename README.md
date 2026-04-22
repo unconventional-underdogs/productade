@@ -6,7 +6,7 @@ Productade Research OSE is a lightweight productivity application that 1) eases 
 
 ![Screenshot of Product Research OSE](https://github.com/unconventional-underdogs/productade/blob/main/Images/Productade%20Research%20OSE.png)
 
-Productade Research OSE is made available as a learning, or education, example for doing personal research on Github Discussions. Productade Research OSE is intended to help product professionals 1) obtain understanding of LLMs capabilities while building their own personal prototype applications and 2) see a tangible example of built-in traceable data provenance that supports cross-team alignment conversations and mitigate LLM hallucinations. We encourage product professionals to build their own prototypes. We offer Productade Research OSE to help save time, ease workflows, and provide a starting point.  
+Productade Research OSE is made available as a learning, or education, example for doing personal research on Github Discussions. Productade Research OSE is a companion example referenced in the in-depth tutorial [“Jump In…Build A Personal Prototype Research App”](https://unconventionalunderdogs.blog/2026/03/08/jump-in-build-a-personal-prototype-research-app/). Productade Research OSE is intended to help product professionals 1) obtain understanding of LLMs capabilities while building their own personal prototype applications and 2) see a tangible example of built-in traceable data provenance that supports cross-team alignment conversations and mitigate LLM hallucinations. We encourage product professionals to build their own prototypes. We offer Productade Research OSE to help save time, ease workflows, and provide a starting point.  
 
 This readme includes the following sections:
 - [Getting Started](https://github.com/unconventional-underdogs/productade/tree/main#getting-started)
@@ -58,7 +58,7 @@ If you would like to make saved changes, go further, or download a rendered file
 
 ### Build a Prototype Using a Human Created Natural Language Prompt
 
-Get started quickly by using a human created prompt. This prompt has been tested and fine-tuned in Anthropic Claude’s paid and free plans. As this is a “one-shot” prompt, it includes details that may not typically appear in a n’s first prompt into the large language model (LLM) on a project. 
+Get started quickly by using a human created prompt. This prompt has been tested and fine-tuned in Anthropic Claude’s paid and free plans. As this is a “one-shot” prompt, it includes details that may not typically appear in a human’s first prompt into the large language model (LLM) on a project. 
 
 #Prompt Begins
 
@@ -85,7 +85,7 @@ If looking for specific contextual facts with no chatty fluff to get, then visit
 # FAQ
 
 ### Q. What is Productade?  
-Productade is a family of productivity applications for product people that still want to use their brains. 
+Productade is a family of productivity applications and resources for product people that still want to use their brains. 
 
 #### Q. What are Productade applications?  
 Productade applications help accelerate product workflows. 
@@ -153,7 +153,7 @@ Contextual introductions, hands-on guides, and actionable insights to help produ
 | "All About The Context: A Contextual First Step Into Building With LLMs Or AI" | [Link](https://unconventionalunderdogs.blog/2026/03/25/all-about-the-context/) |
 
 ## Institutional, Industry, and Academic Artifacts
-Specific evidence on "why" there is a need share insights, tips, and best practices on working with AI. 
+Specific evidence on "why" there is a need to share insights, tips, and best practices on working with AI. 
 
 | Date | Title | Source |
 |------|-------|--------|
