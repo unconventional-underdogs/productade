@@ -157,7 +157,9 @@ Specific evidence on "why" there is a need to share insights, tips, and best pra
 
 | Date | Title | Source |
 |------|-------|--------|
+| Apr 2026 | "Large Language Model Performance and Clinical Reasoning Tasks" | JAMA Network [Link](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847679) |
 | Apr 2026 | "High earners race ahead on AI as workplace divide widens" | Financial Times [Link](https://www.ft.com/content/0873e3cb-cb02-4b47-941f-14da74149670?accessToken=zwAAAZ5RBX4VlM8M746ogBpAhNO2N30s8_OjDNOHJA5a4O9DeNOcm_p3Mrbk2tPJulLLyGJF7dOrteC1meF4iM8Ic-PLywJLR9OUHxTadBSWcAE.MEYCIQC5hVOFUWln2dhYe3UtvQgbAHlnjrH2N42Q_3aUzgCyNAIhAIABP31T-88PdFCoWRwOi7gS3mKWaCfMNAgg2MnUuLl2&segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902) |
+| Apr 2026 | "The AI governance mirage: Why 72% of enterprises don’t have the control and security they think they do" | VentureBeat [Link](https://venturebeat.com/orchestration/the-ai-governance-mirage-why-72-of-enterprises-dont-have-the-control-and-security-they-think-they-do) |
 | Apr 2026 | "We Don’t Really Know How A.I. Works. That’s a Problem. For us to trust it on certain subjects, researchers in the growing field of interpretability might need to learn how to open the black box of its brain." | NYTimes [Link](https://www.nytimes.com/2026/04/15/magazine/ai-black-box-interpretability-research.html?unlocked_article_code=1.bVA.lqQd.R0bXUKADBhO0&smid=url-share) |
 | Apr 2026 | "Administrative AI: Current Use and Potential Impact" | PHTI [Link](https://phti.org/wp-content/uploads/sites/3/2026/04/PHTI-Administrative-AI-Current-Use-and-Potential-Impact.pdf) |
 | Apr 2026 | "Rising AI Adoption Spurs Workforce Changes" | Gallup [Link](https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx) |
